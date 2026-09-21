@@ -1,0 +1,1733 @@
+{
+  "meta": {
+    "tytul": "Ciąża tydzień po tygodniu - przewodnik (rynek polski)",
+    "wersja": "1.0",
+    "zaktualizowano": "2026-06-13",
+    "liczenie_tygodni": "Tygodnie liczone od pierwszego dnia ostatniej miesiączki (OM). Zapłodnienie następuje ok. 2 tygodnie po OM, dlatego 'wiek ciążowy' jest o ok. 2 tygodnie większy niż faktyczny wiek zarodka/płodu. Ciąża donoszona to 37-42 t.c., termin porodu wyznacza się na 40. tydzień.",
+    "podstawa_prawna": "Opieka oparta o standard organizacyjny opieki okołoporodowej obowiązujący od 7 maja 2026 r. (Rozporządzenie Ministra Zdrowia z 23.10.2025, Dz.U. 2025 poz. 1525, zmieniające rozporządzenie z 16.08.2018) oraz rekomendacje PTGiP.",
+    "kluczowe_zmiany_2026": [
+      "Oznaczenie ferrytyny do 10. t.c. (ocena zapasów żelaza zanim rozwinie się anemia).",
+      "Badanie antygenu HBs (WZW B) już do 10. t.c. (wcześniej dopiero w III trymestrze).",
+      "Doustny test obciążenia glukozą (OGTT 75 g) w 24-28. t.c. (wcześniej 24-26.).",
+      "Zniesiono przesiewowe oznaczanie przeciwciał IgG/IgM przeciw różyczce.",
+      "USG piersi do 12. t.c. przy obciążonym wywiadzie rodzinnym lub zmianach w piersi.",
+      "Konsultacja anestezjologiczna w 33-37. t.c. dla planujących znieczulenie regionalne.",
+      "Edukacja przedporodowa u położnej POZ możliwa od początku ciąży (nie od 21. t.c.).",
+      "Położna może samodzielnie prowadzić ciążę fizjologiczną (zniesiono obowiązek 3 kontroli lekarskich).",
+      "Kontakt 'skóra do skóry' min. 2 h, także po cięciu cesarskim.",
+      "Szczepienia zalecane w ciąży: grypa (inaktywowana, każdy trymestr, refundowana); Tdap/krztusiec w 27.–36. t.c. (bezpłatne w POZ od 15.10.2024; przy ryzyku porodu przedwczesnego od 20. t.c.); RSV — Abrysvo 24.–36. t.c. (optymalnie 32.–36. t.c., wg ChPL Abrysvo zachować ≥2 tyg. odstępu od Tdap; alternatywa: nirsevimab dla noworodka); COVID-19 mRNA — dowolny trymestr."
+    ],
+    "suplementacja_ogolna": {
+      "kwas_foliowy": "Foliany (kwas foliowy / aktywne foliany) - zalecane już przed koncepcją i przez I trymestr (zwykle 0,4 mg/dobę u kobiet bez czynników ryzyka; dawkowanie ustala lekarz/położna, wyższe dawki przy wskazaniach). Zmniejsza ryzyko wad cewy nerwowej.",
+      "witamina_D": "Zwykle 2000 IU/dobę (dawkę dostosowuje się do poziomu 25-OH-D).",
+      "jod": "Ok. 150-200 µg/dobę, o ile brak przeciwwskazań tarczycowych.",
+      "DHA": "Kwasy omega-3 DHA - zwykle min. 200 mg/dobę (więcej przy małym spożyciu ryb lub ryzyku porodu przedwczesnego).",
+      "zelazo": "Tylko przy potwierdzonym niedoborze/anemii (po oznaczeniu ferrytyny i morfologii) - nie suplementować rutynowo bez wskazań.",
+      "uwaga": "Suplementację zawsze dobiera lekarz lub położna indywidualnie - to wskazówki ogólne, nie zalecenie lekarskie."
+    },
+    "objawy_alarmowe_zawsze": [
+      "Silne krwawienie z dróg rodnych.",
+      "Silny, narastający lub stały ból brzucha / podbrzusza.",
+      "Odpływanie płynu owodniowego (zielony/brązowy płyn = pilnie).",
+      "Silny ból głowy, zaburzenia widzenia (mroczki), nagły obrzęk twarzy/rąk, ból w nadbrzuszu - możliwy stan przedrzucawkowy.",
+      "Gorączka powyżej 38°C, dreszcze.",
+      "Wyraźne osłabienie lub brak ruchów dziecka (w III trymestrze).",
+      "Uporczywe wymioty uniemożliwiające jedzenie i picie.",
+      "Ból/pieczenie przy oddawaniu moczu, które się nasila."
+    ],
+    "disclaimer": "Materiał ma charakter wyłącznie informacyjno-edukacyjny i nie zastępuje konsultacji z lekarzem ani położną. Każda ciąża jest inna - w razie wątpliwości lub objawów alarmowych skontaktuj się z osobą prowadzącą ciążę.",
+    "pomiar_nota": "Do ok. 19. tygodnia długość dziecka podawana jest jako CRL (ciemię–siedzenie). Od 20. tygodnia stosuje się CHL (ciemię–pięty), dlatego w tabeli widoczny jest nagły \"skok\" z ~16 cm na ~25 cm — to nie błąd, lecz zmiana metody pomiaru.",
+    "szczepienia_ciazowe": [
+      {
+        "id": "grypa",
+        "nazwa": "Grypa (szczepionka inaktywowana)",
+        "okno": "dowolny trymestr, sezonowo",
+        "tydzien_od": 1,
+        "tydzien_do": 42,
+        "refundacja": "refundowana dla kobiet w ciąży w sezonie epidemicznym",
+        "typ": "zalecane_refundowane",
+        "uwagi": "Wyłącznie inaktywowana (nie żywa atenuowana). Najlepiej przed sezonem zimowym."
+      },
+      {
+        "id": "tdap",
+        "nazwa": "Tdap (krztusiec / tężec / błonica — dawka przypominająca)",
+        "okno": "27.–36. tydzień ciąży (przy ryzyku porodu przedwczesnego: od 20. t.c.)",
+        "tydzien_od": 27,
+        "tydzien_do": 36,
+        "refundacja": "bezpłatne w POZ od 15.10.2024",
+        "typ": "zalecane_refundowane",
+        "uwagi": "Optymalnie 27.–32. t.c. dla maksymalnego transferu IgG przez łożysko. Po 32. t.c. nadal wskazane i skuteczne — nie sugeruj, że jest za późno. Noworodek nie może być zaszczepiony przed 6. tygodniem życia — przeciwciała matki to jedyna ochrona w tym oknie.",
+        "uwaga_odstep": "Jeśli planowane jest szczepienie Abrysvo (RSV), zachować odstęp ≥2 tygodnie między Tdap a RSV (podanie na tej samej wizycie osłabia odpowiedź immunologiczną na antygeny krztuśca)."
+      },
+      {
+        "id": "rsv",
+        "nazwa": "RSV — Abrysvo (szczepionka matczyna)",
+        "okno": "24.–36. tydzień ciąży (optymalnie 32.–36. t.c.)",
+        "tydzien_od": 24,
+        "tydzien_do": 36,
+        "tydzien_optymalny_od": 32,
+        "tydzien_optymalny_do": 36,
+        "refundacja": "nierefundowane (2026)",
+        "typ": "zalecane_nierefundowane",
+        "uwagi": "Okno wg ChPL Abrysvo: 24.–36. t.c.; optymalnie 32.–36. t.c. Zachować ≥2 tyg. odstępu od Tdap.",
+        "alternatywa": "Nirsevimab (Beyfortus) — profilaktyczna dawka dla noworodka po urodzeniu, refundowana w Polsce od sezonu 2024/2025. Nie łączyć obu (matka + noworodek) bez wskazań."
+      },
+      {
+        "id": "covid",
+        "nazwa": "COVID-19 (szczepionka mRNA)",
+        "okno": "dowolny trymestr",
+        "tydzien_od": 1,
+        "tydzien_do": 42,
+        "refundacja": "dostępna bezpłatnie",
+        "typ": "zalecane_ptgip",
+        "uwagi": "Rekomendowana przez PTGiP, bezpieczna w każdym trymestrze wg danych post-approval. Szczególnie wskazana w grupach ryzyka (otyłość, cukrzyca, choroby układu oddechowego)."
+      }
+    ]
+  },
+  "tygodnie": [
+    {
+      "tydzien": 0,
+      "trymestr": 1,
+      "miesiac_ciazy": 1,
+      "etap_nazwa": "Początek cyklu",
+      "podsumowanie": "Według medycznego sposobu liczenia początek ciąży liczy się od pierwszego dnia miesiączki – mimo że jeszcze nie jesteś w ciąży.",
+      "rozmiar_dziecka": {
+        "dlugosc": "—",
+        "waga": "—",
+        "porownanie": "—"
+      },
+      "rozwoj_dziecka": "Organizm dopiero rozpoczyna nowy cykl i przygotowuje się do uwolnienia komórki jajowej w kolejnych tygodniach. Nie doszło jeszcze do zapłodnienia, więc zarodek jeszcze nie istnieje.",
+      "cialo_kobiety": "Rozpoczyna się miesiączka, podczas której organizm usuwa błonę śluzową macicy z poprzedniego cyklu. Jednocześnie zaczyna przygotowania do kolejnej owulacji.",
+      "typowe_objawy": [
+        "Krwawienie miesiączkowe",
+        "Skurcze podbrzusza",
+        "Zmęczenie"
+      ],
+      "co_zrobic": [
+        "Rozpocznij lub kontynuuj suplementację kwasu foliowego.",
+        "Unikaj alkoholu i palenia",
+        "Zadbaj o zróżnicowaną, pełnowartościową dietę."
+      ],
+      "badania_i_wizyty": [],
+      "na_co_zwrocic_uwage": [],
+      "wskazowki": [
+        "Stres i niedobór snu mogą zaburzać owulację."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 0
+    },
+    {
+      "tydzien": 1,
+      "trymestr": 1,
+      "miesiac_ciazy": 1,
+      "etap_nazwa": "Dni płodne i owulacja",
+      "podsumowanie": "To czas owulacji — najbardziej płodne dni cyklu. Jeśli komórka jajowa spotka plemnik, może dojść do zapłodnienia i rozpoczęcia ciąży.",
+      "rozmiar_dziecka": {
+        "dlugosc": "—",
+        "waga": "—",
+        "porownanie": "—"
+      },
+      "rozwoj_dziecka": "Dojrzała komórka jajowa zostaje uwolniona z jajnika (owulacja) i wędruje do jajowodu, gdzie może spotkać się z plemnikiem. Jeśli dojdzie do zapłodnienia, powstanie zygota, czyli pierwsza komórka przyszłego dziecka. Już na tym etapie zostają zapisane cechy genetyczne, takie jak płeć, kolor oczu czy grupa krwi.",
+      "cialo_kobiety": "Organizm przygotowuje się do owulacji. Błona śluzowa macicy odbudowuje się i stopniowo pogrubia, tworząc warunki do ewentualnego zagnieżdżenia zarodka. Wzrasta poziom estrogenów, a śluz szyjkowy staje się bardziej przejrzysty i rozciągliwy, co ułatwia plemnikom dotarcie do komórki jajowej. Niektóre kobiety odczuwają zwiększone libido lub delikatny ból owulacyjny po jednej stronie podbrzusza.",
+      "typowe_objawy": [
+        "Ciągliwy śluz szyjkowy",
+        "Wzrost libido",
+        "Ból owulacyjny",
+        "Wrażliwość piersi"
+      ],
+      "co_zrobic": [
+        "Kontynuuj suplementację kwasu foliowego.",
+        "Zadbaj o siebie - stres i niedobór snu mogą zaburzać owulację.",
+        "Obserwuj objawy owulacji, takie jak zmiana śluzu czy ból owulacyjny.",
+        "Starania o dziecko mogą być stresujące dla obojga partnerów — warto rozmawiać o oczekiwaniach i emocjach."
+      ],
+      "badania_i_wizyty": [],
+      "na_co_zwrocic_uwage": [
+        "Zachowaj ostrożność przy lekach — skonsultuj je z lekarzem lub farmaceutą"
+      ],
+      "wskazowki": [
+        "Najwyższa płodność przypada na dzień owulacji i 1–2 dni przed nią.",
+        "Komórka jajowa żyje zwykle około 12–24 godzin po owulacji, natomiast plemniki mogą przetrwać w drogach rodnych kobiety nawet do 5 dni.",
+        "Jeśli używacie lubrykantu, wybierajcie preparaty oznaczone jako fertility-friendly lub sperm-friendly. Niektóre standardowe lubrykanty mogą ograniczać ruchliwość plemników."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 1
+    },
+    {
+      "tydzien": 2,
+      "trymestr": 1,
+      "miesiac_ciazy": 1,
+      "etap_nazwa": "Zapłodnienie",
+      "podsumowanie": "Powstaje zarodek. Zapłodniona komórka dzieli się i wędruje w stronę macicy, by się w niej zagnieździć.",
+      "rozmiar_dziecka": {
+        "dlugosc": "—",
+        "waga": "—",
+        "porownanie": "ziarnko maku"
+      },
+      "rozwoj_dziecka": "Zapłodniona komórka jajowa (zygota) intensywnie się dzieli, tworząc coraz więcej komórek. W ciągu kilku dni powstaje blastocysta, która wędruje jajowodem do jamy macicy. Choć zarodek jest jeszcze mikroskopijny, zawiera już kompletny zestaw informacji genetycznej. Część jego komórek utworzy ciało dziecka, a część łożysko i błony płodowe.",
+      "cialo_kobiety": "Choć w organizmie rozpoczęły się już procesy niezbędne do podtrzymania ciąży, większość kobiet nie odczuwa jeszcze żadnych wyraźnych objawów. Zmiany hormonalne dopiero nabierają tempa. Test ciążowy jest na tym etapie zwykle jeszcze ujemny, ponieważ poziom hormonu hCG jest zbyt niski, by go wykryć.",
+      "typowe_objawy": [
+        "Brak wyraźnych objawów",
+        "Możliwe lekkie zmęczenie"
+      ],
+      "co_zrobic": [
+        "Kontynuuj suplementację kwasu foliowego."
+      ],
+      "badania_i_wizyty": [],
+      "na_co_zwrocic_uwage": [
+        "Zachowaj ostrożność przy lekach — skonsultuj je z lekarzem lub farmaceutą",
+        "Unikaj alkoholu, papierosów i innych używek."
+      ],
+      "wskazowki": [
+        "To krytyczny okres rozwoju — wszystko, co trafia do organizmu, ma znaczenie.",
+        "Na wiarygodny wynik testu ciążowego najczęściej trzeba poczekać do daty spodziewanej miesiączki."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 2
+    },
+    {
+      "tydzien": 3,
+      "trymestr": 1,
+      "miesiac_ciazy": 1,
+      "etap_nazwa": "Zagnieżdżenie",
+      "podsumowanie": "To przełomowy moment – zarodek zagnieżdża się w jamie macicy i rozpoczyna komunikację z organizmem mamy.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 1 mm",
+        "waga": "—",
+        "porownanie": "ziarnko maku"
+      },
+      "rozwoj_dziecka": "Blastocysta zagnieżdża się (implantuje) w błonie śluzowej macicy. To kluczowy moment, zaczynają tworzyć się trzy listki zarodkowe, z których powstaną wszystkie narządy i tkanki. Komórki łożyska zaczynają wydzielać hormon hCG, który podtrzymuje ciążę i jest wykrywany przez testy ciążowe.",
+      "cialo_kobiety": "Może wystąpić delikatne plamienie implantacyjne i lekkie skurcze. Spóźniająca się miesiączka jest często pierwszym sygnałem ciąży. Niektóre kobiety odczuwają już napięcie piersi i zmęczenie. Pod koniec tygodnia test ciążowy z krwi (beta-hCG) może być już dodatni!",
+      "typowe_objawy": [
+        "Brak miesiączki",
+        "Plamienie implantacyjne",
+        "Tkliwość piersi",
+        "Zmęczenie"
+      ],
+      "co_zrobic": [
+        "Zapisz datę ostatniej miesiączki — będzie potrzebna do określenia wieku ciąży i terminu porodu.",
+        "Kontynuuj suplementację kwasu foliowego i unikaj używek."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli miesiączka się spóźnia lub jest wyraźnie słabsza niż zwykle – wykonaj test ciążowy (mocz) lub oznaczenie beta-hCG z krwi"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Silny, jednostronny ból podbrzusza z plamieniem (może wskazywać na ciążę pozamaciczną).",
+        "Obfite krwawienie z dużymi skrzepami."
+      ],
+      "wskazowki": [
+        "Plamienie implantacyjne jest zwykle skąpe i krótkotrwałe (lub nawet niewidoczne).",
+        "Badanie beta-hCG z krwi jest dużo bardziej czułe niż test paskowy z moczu."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 3
+    },
+    {
+      "tydzien": 4,
+      "trymestr": 1,
+      "miesiac_ciazy": 2,
+      "etap_nazwa": "Powstaje serce",
+      "podsumowanie": "Rozpoczyna się okres zarodkowy. Formuje się serce i zawiązki układu nerwowego.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 2 mm",
+        "waga": "—",
+        "porownanie": "ziarnko sezamu"
+      },
+      "rozwoj_dziecka": "To początek intensywnego etapu budowania całego organizmu Twojego dziecka. Choć zarodek ma zaledwie kilka milimetrów długości, jego serce już zaczyna się formować. Powstają pierwsze struktury, z których rozwiną się narządy i części ciała. Tworzy się cewa nerwowa, z której powstaną mózg i rdzeń kręgowy – to właśnie dlatego tak ważna jest odpowiednia suplementacja kwasu foliowego już na początku ciąży. Widoczny jest też wyraźny zarys głowy, a rozwijające się ciało zaczyna nabierać kształtu przyszłego dziecka.",
+      "cialo_kobiety": "Wiele kobiet właśnie teraz dowiaduje się o ciąży. Wzrastający poziom hormonów ciążowych sprawia, że pierwsze objawy stają się coraz bardziej zauważalne. Rosnący poziom hCG i progesteronu może powodować mdłości, zmęczenie i wrażliwość piersi. Choć często mówi się o porannych mdłościach, w rzeczywistości mogą one występować o dowolnej porze dnia i nocy. Częstsze oddawanie moczu i zmiany nastroju są również typowe.",
+      "typowe_objawy": [
+        "Mdłości",
+        "Zmęczenie",
+        "Tkliwość piersi",
+        "Częstsze oddawanie moczu",
+        "Wahania nastroju"
+      ],
+      "co_zrobic": [
+        "Umów pierwszą wizytę u ginekologa.",
+        "Jeśli dokuczają Ci mdłości – jedz małe, ale częste posiłki.",
+        "Kontynuuj kwas foliowy – jest szczególnie istotny na tym etapie."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli miesiączka się spóźnia lub jest wyraźnie słabsza niż zwykle – wykonaj test ciążowy (mocz) lub oznaczenie beta-hCG z krwi",
+        "Możliwe wczesne USG potwierdzające lokalizację ciąży (na zlecenie lekarza)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Silny ból brzucha lub barku z plamieniem.",
+        "Krwawienie z jasnoczerwoną krwią."
+      ],
+      "wskazowki": [
+        "W tym okresie powstają najważniejsze narządy dziecka, dlatego szczególnie ważne jest unikanie używek i ostrożność przy stosowaniu leków.",
+        "Jeśli mdłości są nasilone rano, zjedz coś jeszcze przed wstaniem z łóżka."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 4
+    },
+    {
+      "tydzien": 5,
+      "trymestr": 1,
+      "miesiac_ciazy": 2,
+      "etap_nazwa": "Kształtuje się wygląd dziecka",
+      "podsumowanie": "Dziecko nabiera coraz bardziej rozpoznawalnych kształtów. Tworzą się pierwsze rysy twarzy i zawiązki kończyn.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 3 mm",
+        "waga": "—",
+        "porownanie": "soczewica"
+      },
+      "rozwoj_dziecka": "Zarodek rośnie w błyskawicznym tempie. Wyglądem przypomina teraz kijankę, pojawiają się zawiązki rąk i nóg, a także pierwsze struktury, z których rozwiną się oczy, nos i uszy. Intensywnie rozwijają się narządy wewnętrzne, w tym układ pokarmowy i oddechowy. Serce, choć maleńkie, ma już dwie komory i bije znacznie szybciej od serca dorosłego.",
+      "cialo_kobiety": "Mdłości mogą się nasilać, a niektóre zapachy stać się wyjątkowo intensywne lub drażniące. Mogą pojawić się zachcianki lub przeciwnie – awersje pokarmowe. Niewielka utrata wagi na tym etapie ciąży, związana z mdłościami lub mniejszym apetytem, zwykle nie jest powodem do niepokoju.",
+      "typowe_objawy": [
+        "Nasilone mdłości",
+        "Silne zmęczenie",
+        "Bóle głowy / częste migreny",
+        "Wrażliwość na zapachy",
+        "Tkliwość piersi",
+        "Wzdęcia",
+        "Zachcianki lub awersje pokarmowe"
+      ],
+      "co_zrobic": [
+        "Umów się na pierwszą wizytę położniczą – zalecana między 6. a 8. t.c.",
+        "Pij dużo wody, zwłaszcza przy mdłościach.",
+        "Nie zapominaj o suplementacji kwasem foliowym."
+      ],
+      "badania_i_wizyty": [
+        "Pierwsza wizyta położnicza zalecana między 6. a 8. tygodniem ciąży, najpóźniej do 10. t.c."
+      ],
+      "na_co_zwrocic_uwage": [
+        "Uporczywe wymioty uniemożliwiające jedzenie i picie (ryzyko odwodnienia).",
+        "Silny, narastający ból podbrzusza."
+      ],
+      "wskazowki": [
+        "Ryzyko poronienia istotnie spada po potwierdzeniu prawidłowej akcji serca – jest to jednak często zbyt wcześnie na wykrycie akcji.",
+        "Lekarz może zalecić także suplementację witaminy D, DHA oraz jodu odpowiednio do Twojej sytuacji zdrowotnej.",
+        "Imbir i częste małe posiłki pomagają łagodzić mdłości.",
+        "Awersje pokarmowe są naturalne — słuchaj swojego organizmu."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 5
+    },
+    {
+      "tydzien": 6,
+      "trymestr": 1,
+      "miesiac_ciazy": 2,
+      "etap_nazwa": "Rosną kończyny",
+      "podsumowanie": "Mózg rozwija się szczególnie szybko, a kończyny zaczynają się wydłużać.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 5 mm",
+        "waga": "—",
+        "porownanie": "borówka"
+      },
+      "rozwoj_dziecka": "Głowa zarodka jest duża w stosunku do reszty ciała, ponieważ mózg rozwija się w zawrotnym tempie. Na rączkach i nóżkach zaczynają zarysowywać się zawiązki palców – chrząstka, która przekształci się w kości. Tworzą się nerki, a malutki układ pokarmowy zaczyna nabierać kształtów. Powoli powstają soczewki oczu.",
+      "cialo_kobiety": "Macica powiększa się, choć brzuch nie jest jeszcze widoczny. Objawy ciążowe zwykle się utrzymują. Może pojawić się ślinotok, zgaga i zaparcia. Skóra niektórych kobiet staje się bardziej promienna lub przeciwnie — skłonna do niedoskonałości.",
+      "typowe_objawy": [
+        "Mdłości",
+        "Zwiększone wydzielanie śliny",
+        "Uczucie zatkanego nosa (ciążowy nieżyt nosa)",
+        "Zmęczenie",
+        "Zgaga",
+        "Zaparcia",
+        "Wahania nastroju"
+      ],
+      "co_zrobic": [
+        "Kontynuuj suplementację zaleconą przez lekarza.",
+        "Nie odstawiaj leków przewlekłych bez konsultacji z lekarzem."
+      ],
+      "badania_i_wizyty": [
+        "Pierwsza wizyta położnicza zalecana między 6. a 8. tygodniem ciąży",
+        "Lekarz zleca komplet badań laboratoryjnych do wykonania do 10 t.c. (grupa krwi i Rh, przeciwciała odpornościowe, morfologia, ferrytyna, badanie ogólne moczu, glukoza na czczo, VDRL, HIV, HCV, HBsAg, TSH, toksoplazmoza IgG/IgM (jeśli brak wcześniejszego potwierdzenia IgG), cytologia jeśli nie była wykonana w ciągu 12 miesięcy)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Silny, kurczowy ból podbrzusza."
+      ],
+      "wskazowki": [
+        "Lekarz może zalecić także suplementację witaminy D, DHA oraz jodu odpowiednio do Twojej sytuacji zdrowotnej.",
+        "Przy zaparciach zadbaj o błonnik w diecie, nawodnienie oraz ruch (nawet krótki spacer).",
+        "Ogranicz tłuste i ciężkostrawne potrawy przy zgadze."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 6
+    },
+    {
+      "tydzien": 7,
+      "trymestr": 1,
+      "miesiac_ciazy": 2,
+      "etap_nazwa": "Powstają zawiązki narządów",
+      "podsumowanie": "Zarodek ma już zarys wszystkich głównych narządów i zaczyna wykonywać pierwsze ruchy.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 1 cm",
+        "waga": "ok. 10 g",
+        "porownanie": "groszek"
+      },
+      "rozwoj_dziecka": "Zarodek ma już zarys wszystkich najważniejszych narządów. Formują się powieki, wyraźniejsze stają się palce rąk i nóg, choć wciąż połączone błoną. Kości stopniowo zastępują chrząstkę, a w jamie ustnej pojawiają się zawiązki zębów. Zarodek wykonuje pierwsze, niewyczuwalne jeszcze dla mamy ruchy.",
+      "cialo_kobiety": "Objawy ciąży są zwykle wyraźne. Mogą nasilać się mdłości, zmęczenie i częstomocz. Brzuch zwykle nie jest jeszcze widoczny, ale wzdęcia mogą sprawiać, że ubrania stają się ciaśniejsze niż zwykle. Hormony wpływają na nastrój i poziom energii.",
+      "typowe_objawy": [
+        "Mdłości",
+        "Zmęczenie i bóle głowy",
+        "Częstomocz",
+        "Tkliwość piersi",
+        "Wzdęcia",
+        "Uczucie zatkanego nosa (ciążowy nieżyt nosa)"
+      ],
+      "co_zrobic": [
+        "Jeśli jeszcze tego nie zrobiłaś – zgłoś się na pierwszą wizytę położniczą i komplet badań — najpóźniej do 10. tygodnia ciąży.",
+        "Zaplanuj wizytę stomatologiczną.",
+        "Dbaj o regularne posiłki i kontynuuj suplementację kwasu foliowego."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyła – pierwsza wizyta położnicza zalecana między 6. a 8. tygodniem ciąży",
+        "Lekarz zleca komplet badań laboratoryjnych do wykonania do 10 t.c. (grupa krwi i Rh, przeciwciała odpornościowe, morfologia, ferrytyna, badanie ogólne moczu, glukoza na czczo, VDRL, HIV, HCV, HBsAg, TSH, toksoplazmoza IgG/IgM (jeśli brak wcześniejszego potwierdzenia IgG), cytologia jeśli nie była wykonana w ciągu 12 miesięcy)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Nasilone, uporczywe wymioty (możliwe niepowściągliwe wymioty ciężarnych)."
+      ],
+      "wskazowki": [
+        "Jeśli cytologia nie była ostatnio wykonywana, poinformuj o tym lekarza podczas wizyty.",
+        "Na wizytę warto przygotować datę ostatniej miesiączki, listę przyjmowanych leków oraz pytania, które chcesz zadać lekarzowi."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 7
+    },
+    {
+      "tydzien": 8,
+      "trymestr": 1,
+      "miesiac_ciazy": 3,
+      "etap_nazwa": "Od zarodka do płodu",
+      "podsumowanie": "To ostatni tydzień okresu zarodkowego – wkrótce zarodek zostanie nazwany płodem. Dziecko coraz bardziej przypomina noworodka w miniaturze.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 1,5 cm",
+        "waga": "ok. 15 g",
+        "porownanie": "winogrono"
+      },
+      "rozwoj_dziecka": "Twarz coraz bardziej przypomina ludzką — widoczne są nos, usta i zaczątki uszu, a kończyny stają się coraz lepiej ukształtowane. Serce ma już teraz cztery komory i budową przypomina miniaturową wersję serca dorosłego. Rozwijają się mięśnie, dzięki czemu ruchy stają się bardziej skoordynowane. Powstają zewnętrzne narządy płciowe, choć płeć nie jest jeszcze widoczna w USG.",
+      "cialo_kobiety": "Macica osiąga wielkość pomarańczy. Objawy ciąży mogą być teraz szczególnie odczuwalne. Mdłości, zmęczenie i wrażliwość na zapachy często osiągają największe nasilenie. Zwiększająca się objętość krwi może powodować zawroty głowy, a hormony wpływają na nastrój i kondycję skóry.",
+      "typowe_objawy": [
+        "Mdłości",
+        "Zwiększone wydzielanie śliny",
+        "Tkliwość piersi i ciemniejące brodawki",
+        "Zmęczenie i zawroty głowy",
+        "Wahania nastroju"
+      ],
+      "co_zrobic": [
+        "Wykonaj do 10. tygodnia ciąży wszystkie badania zlecone podczas pierwszej wizyty.",
+        "Dbaj o regularne posiłki i nawodnienie."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyła – pierwsza wizyta położnicza zalecana między 6. a 8. tygodniem ciąży",
+        "Lekarz zleca komplet badań laboratoryjnych do wykonania do 10 t.c. (grupa krwi i Rh, przeciwciała odpornościowe, morfologia, ferrytyna, badanie ogólne moczu, glukoza na czczo, VDRL, HIV, HCV, HBsAg, TSH, toksoplazmoza IgG/IgM (jeśli brak wcześniejszego potwierdzenia IgG), cytologia jeśli nie była wykonana w ciągu 12 miesięcy)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Omdlenia.",
+        "Krwawienie lub silny ból podbrzusza."
+      ],
+      "wskazowki": [
+        "Wstawaj powoli, by unikać zawrotów głowy, a także pij wodę i unikaj długiego stania",
+        "To wciąż okres dużej wrażliwości rozwojowej — uważaj na używki i leki."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 8
+    },
+    {
+      "tydzien": 9,
+      "trymestr": 1,
+      "miesiac_ciazy": 3,
+      "etap_nazwa": "Początek okresu płodowego",
+      "podsumowanie": "Od tego tygodnia mówimy już o płodzie. Najważniejsze narządy są na swoim miejscu i rozpoczynają etap dalszego wzrostu oraz dojrzewania.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 2,3 cm",
+        "waga": "ok. 20 g",
+        "porownanie": "truskawka"
+      },
+      "rozwoj_dziecka": "Od tego tygodnia mówimy już o płodzie. Najważniejsze narządy są uformowane, a kości stopniowo twardnieją i tworzą się stawy. Oczy dziecka zaczynają przesuwać się z boku głowy na przód. Palce rąk i nóg są całkowicie rozdzielone, pojawiają się zawiązki paznokci.",
+      "cialo_kobiety": "Macica wyraźnie rośnie, choć brzuch często pozostaje jeszcze niewielki. U części kobiet mdłości są najsilniejsze właśnie w tym okresie i będą maleć wraz z końcem I trymestru. Zwiększona objętość krwi może sprawić, że żyły na piersiach i skórze staną się bardziej widoczne.",
+      "typowe_objawy": [
+        "Mdłości",
+        "Zmęczenie i bóle głowy",
+        "Widoczne żyły na skórze",
+        "Wzdęcia"
+      ],
+      "co_zrobic": [
+        "Wykonaj do 10. tygodnia ciąży wszystkie badania zlecone podczas pierwszej wizyty.",
+        "Umów się na USG I trymestru (między 11. a 14. tygodniem ciąży).",
+        "Kontynuuj suplementację i zdrowe nawyki."
+      ],
+      "badania_i_wizyty": [
+        "Badania laboratoryjne z pierwszej wizyty położniczej do wykonania do 10. t.c. (grupa krwi i Rh, przeciwciała odpornościowe, morfologia, ferrytyna, badanie ogólne moczu, glukoza na czczo, VDRL, HIV, HCV, HBsAg, TSH, toksoplazmoza IgG/IgM (jeśli brak wcześniejszego potwierdzenia IgG), cytologia jeśli nie była wykonana w ciągu 12 miesięcy)",
+        "Konsultacja stomatologiczna"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Silny ból podbrzusza."
+      ],
+      "wskazowki": [
+        "Komplet wczesnych badań pozwala wykryć i leczyć ewentualne nieprawidłowości.",
+        "Nowy standard wprowadza oznaczenie ferrytyny i antygenu HBs już do 10. tygodnia ciąży."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 9
+    },
+    {
+      "tydzien": 10,
+      "trymestr": 1,
+      "miesiac_ciazy": 3,
+      "etap_nazwa": "Płód zaczyna się prostować",
+      "podsumowanie": "Dziecko zaczyna się prostować i nabiera bardziej ludzkich proporcji.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 3 cm",
+        "waga": "ok. 30 g",
+        "porownanie": "oliwka"
+      },
+      "rozwoj_dziecka": "Głowa wciąż stanowi sporą część ciała, ale uwidacznia się szyja i proporcje stopniowo się wyrównują. Dziecko prostuje się i wykonuje energiczne, choć niewyczuwalne jeszcze ruchy. Powstają mieszki włosowe i paznokcie, a rozwijająca się przepona pozwala na ruchy przypominające czkawkę.",
+      "cialo_kobiety": "Wiele kobiet zaczyna odczuwać ulgę — mdłości słabną, a poziom energii wraca. Macica wystaje już ponad spojenie łonowe. Możesz zauważyć większy apetyt, poprawę samopoczucia lub przypływ energii.",
+      "typowe_objawy": [
+        "Mdłości",
+        "Zmęczenie",
+        "Uczucie zatkanego nosa (ciążowy nieżyt nosa)"
+      ],
+      "co_zrobic": [
+        "Wykonaj do 10. tygodnia ciąży wszystkie badania zlecone podczas pierwszej wizyty.",
+        "Jeśli tego nie zrobiłaś – umów się na USG I trymestru (między 11. a 14. tygodniem ciąży).",
+        "Kontynuuj zdrową dietę i suplementację."
+      ],
+      "badania_i_wizyty": [
+        "Badania laboratoryjne z pierwszej wizyty położniczej do wykonania do 10. t.c.",
+        "Konsultacja stomatologiczna",
+        "USG piersi do 12. t.c. u kobiet z obciążonym wywiadem lub zmianami w piersiach"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Silny ból podbrzusza.",
+        "Utrzymujące się wymioty uniemożliwiające przyjmowanie płynów."
+      ],
+      "wskazowki": [
+        "Obecnie maleje ryzyko powstawiania wad wrodzonych, ponieważ główne narządy są już wykształcone i mniej podatne na czynniki zewnętrzne.",
+        "Końcówka I trymestru często przynosi stopniową poprawę samopoczucia i wzrost poziomu energii."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 10
+    },
+    {
+      "tydzien": 11,
+      "trymestr": 1,
+      "miesiac_ciazy": 3,
+      "etap_nazwa": "Czas badań prenatalnych",
+      "podsumowanie": "Rozpoczyna się okno na USG I trymestru i badania prenatalne. Płód jest w pełni ukształtowany w zarysie.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 4 cm",
+        "waga": "ok. 40 g",
+        "porownanie": "mandarynka"
+      },
+      "rozwoj_dziecka": "Dziecko otwiera i zamyka usta, a nawet zmienia wyraz twarzy, może już też wykonywać ruchy ssania i zbliżać dłonie do twarzy. Nerki zaczynają produkować mocz, wydalając płyn owodniowy, który dziecko połyka – w tym czasie czerpie tlen z łożyska, a płuca wykorzysta dopiero po urodzeniu.",
+      "cialo_kobiety": "Macica wypełnia miednicę przesuwając się w górę, tym samym często zmniejsza nacisk na pęcherz moczowy. Może pojawić się przebarwienie skóry (np. ciemna linia na brzuchu). Spowolnione trawienie może wywoływać wzdęcia",
+      "typowe_objawy": [
+        "Ustępujące mdłości",
+        "Więcej energii",
+        "Przebarwienia skóry"
+      ],
+      "co_zrobic": [
+        "Zaplanuj z lekarzem następną wizytę kontrolną.",
+        "Codziennie nawilżaj skórę brzucha."
+      ],
+      "badania_i_wizyty": [
+        "USG I trymestru z oceną przezierności karkowej (11.–14 t.c.) oraz test PAPP-A (test podwójny, ocena ryzyka wad genetycznych)",
+        "Jeśli niewykonane – USG piersi do 12. t.c. u kobiet z obciążonym wywiadem lub zmianami w piersiach."
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Silny, kurczowy ból podbrzusza."
+      ],
+      "wskazowki": [
+        "Ryzyko poronienia istotnie spada po potwierdzeniu prawidłowej akcji serca.",
+        "Badania prenatalne są nieinwazyjne i bezpieczne dla dziecka.",
+        "Wielu rodziców decyduje się ogłosić ciążę właśnie po 11. tygodniu."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 11
+    },
+    {
+      "tydzien": 12,
+      "trymestr": 1,
+      "miesiac_ciazy": 3,
+      "etap_nazwa": "Niepowtarzalne linie papilarne",
+      "podsumowanie": "Płód ma już indywidualne odciski palców. Proporcje ciała stają się bardziej wyrównane.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 5,5 cm",
+        "waga": "ok. 60 g",
+        "porownanie": "brzoskwinia"
+      },
+      "rozwoj_dziecka": "Na opuszkach palców pojawiają się niepowtarzalne linie papilarne, a także małe paznokcie. Ciało rośnie szybciej niż głowa, więc proporcje się wyrównują. Kości i mięśnie się wzmacniają, a dziecko coraz aktywniej się porusza. Powstają struny głosowe, a w jelitach gromadzi się pierwsza treść.",
+      "cialo_kobiety": "To zwykle początek najprzyjemniejszego etapu ciąży. Energia i apetyt wracają, a ogólne samopoczucie się poprawia. Brzuch staje się bardziej widoczny – przydadzą się już ubrania ciążowe. Mogą jednak pojawić się zmiany skórne i ciągnący ból w obrębie jamy brzusznej, spowodowany rozciąganiem więzadeł utrzymujących macicę.",
+      "typowe_objawy": [
+        "Ból więzadeł utrzymujących macicę",
+        "Większy apetyt",
+        "Widoczny brzuch",
+        "Wzrost poziomu libido",
+        "Zmiany skórne"
+      ],
+      "co_zrobic": [
+        "Regularnie nawilżaj skórę, może to pomóc przy rozciąganiu się brzucha.",
+        "Ćwicz spokojny, głęboki oddech przeponowy – przyda się w ciąży i podczas porodu."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli niewykonane – USG piersi do 12. t.c. u kobiet z obciążonym wywiadem lub zmianami w piersiach.",
+        "Jeśli się nie odbyło – USG I trymestru (11.–14 t.c.) oraz test PAPP-A."
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Silny ból podbrzusza."
+      ],
+      "wskazowki": [
+        "Drugi trymestr to dobry moment na aktywność fizyczną dostosowaną do ciąży (spacery, joga dla ciężarnych, basen).",
+        "Czasami możliwe jest już rozpoznanie płci dziecka, ale najpewniej będzie trzeba jeszcze poczekać kilka tygodni (w 16. t.c. jest to bardziej prawdopodobne)."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 12
+    },
+    {
+      "tydzien": 13,
+      "trymestr": 1,
+      "miesiac_ciazy": 3,
+      "etap_nazwa": "Koniec I trymestru",
+      "podsumowanie": "Kończy się I trymestr – zwykle najtrudniejszy okres ciąży z uwagi na częste mdłości i zmęczenie.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 7 cm",
+        "waga": "ok. 70 g",
+        "porownanie": "cytryna"
+      },
+      "rozwoj_dziecka": "Na skórze dziecka pojawia się delikatny meszek płodowy (lanugo), który pomaga chronić ją przed działaniem płynu owodniowego – przed narodzinami większość meszku stopniowo zaniknie. Dziecko marszczy też brwi, mruży oczy i wykonuje grymasy ćwicząc tym samym mięśnie twarzy, a ruchy są coraz bardziej skoordynowane. Wątroba i śledziona zaczynają pełnić swoje funkcje.",
+      "cialo_kobiety": "Łożysko przejmuje coraz większą część zadań związanych z podtrzymaniem ciąży, dlatego wiele kobiet zaczyna zauważać stopniowe ustępowanie mdłości i samopoczucie zwykle się poprawia. Piersi nadal się powiększają. Zmiany hormonalne i zwiększone ukrwienie sprawiają, że na klatce piersiowej i samych piersiach uwidaczniają się żyły, a brodawki powiększają się i ciemnieją – przygotowując się do karmienia.",
+      "typowe_objawy": [
+        "Lepsze samopoczucie",
+        "Powrót energii",
+        "Wzmożony apetyt",
+        "Zaokrąglony brzuch"
+      ],
+      "co_zrobic": [
+        "Rozważ zakup wygodnych, luźniejszych ubrań.",
+        "Kontynuuj zdrową, urozmaiconą dietę.",
+        "Zadbaj o regularną, ale umiarkowaną aktywność fizyczną (spacery, joga dla ciężarnych, basen)."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyło – USG I trymestru (11.–14 t.c.) oraz test PAPP-A."
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Silny ból brzucha lub gorączka."
+      ],
+      "wskazowki": [
+        "Spanie na boku, szczególnie lewym, często poprawia komfort i krążenie. Jeśli obudzisz się na plecach, po prostu zmień pozycję na wygodniejszą.",
+        "Pij dużo wody — zapotrzebowanie na płyny w ciąży rośnie."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 13
+    },
+    {
+      "tydzien": 14,
+      "trymestr": 2,
+      "miesiac_ciazy": 4,
+      "etap_nazwa": "Początek II trymestru",
+      "podsumowanie": "Zaczyna się II trymestr – zwykle najprzyjemniejszy okres ciąży. Od teraz długość dziecka mierzy się wraz z nóżkami, a już nie tylko od czubka głowy do pośladków (CRL).",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 15 cm",
+        "waga": "ok. 80 g",
+        "porownanie": "jabłko"
+      },
+      "rozwoj_dziecka": "Dziecko potrafi wykonywać już wiele ruchów, w tym chwyta za pępowinę. Skóra dziecka pozostaje cienka i niemal przezroczysta, kości powoli twardnieją, a szkielet jest widoczny w USG. Dziecko może już reagować na silne światło docierające przez powłoki brzuszne, mimo że jego oczy pozostają wciąż zamknięte.",
+      "cialo_kobiety": "Drugi trymestr zwykle przynosi poprawę samopoczucia. Niemniej zwiększone ukrwienie może powodować uczucie zatkanego nosa, a u części kobiet także sporadyczne krwawienia z nosa. Pojawiają się też niewielkie krwawienia z dziąseł. Brzuch staje się coraz bardziej widoczny, dlatego więzadła podtrzymujące macicę mogą powodować uczucie ciągnięcia w podbrzuszu.",
+      "typowe_objawy": [
+        "Lepsze samopoczucie",
+        "Krwawienie z dziąseł",
+        "Uczucie zatkanego nosa i krwawienie z nosa",
+        "Ból więzadeł utrzymujących macicę"
+      ],
+      "co_zrobic": [
+        "Dbaj o higienę jamy ustnej (delikatna szczoteczka i nić dentystyczna).",
+        "Umów się na wizytę kontrolną w II trymestrze wraz z morfologią i badaniem ogólnym moczu (15-20. t.c.).",
+        "Ćwicz spokojny, głęboki oddech przeponowy – przyda się w ciąży i podczas porodu."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyło – USG I trymestru (11.–14 t.c.) oraz test PAPP-A."
+      ],
+      "na_co_zwrocic_uwage": [
+        "Obfite krwawienie z nosa, które nie ustępuje po około 15 minutach ucisku.",
+        "Krwawienie z dróg rodnych.",
+        "Silny ból brzucha."
+      ],
+      "wskazowki": [
+        "Znajdź wygodną pozycję do snu, najlepiej na lewym boku.",
+        "Krwawienie z dziąseł w ciąży jest częste i zwykle wynika ze zwiększonego ukrwienia tkanek.",
+        "Krótkotrwałe krwawienia z nosa w ciąży są częste i zwykle nie stanowią powodu do niepokoju. Pomocne może być nawilżanie powietrza oraz błony śluzowej nosa."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 14
+    },
+    {
+      "tydzien": 15,
+      "trymestr": 2,
+      "miesiac_ciazy": 4,
+      "etap_nazwa": "Pierwsze dźwięki",
+      "podsumowanie": "Dziecko coraz lepiej przygotowuje się do odbierania dźwięków. Niektóre mamy zaczynają już czuć pierwsze ruchy!",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 16 cm",
+        "waga": "ok. 110 g",
+        "porownanie": "awokado"
+      },
+      "rozwoj_dziecka": "Układ słuchowy intensywnie się rozwija i przygotowuje do odbierania dźwięków. Mięśnie twarzy pozwalają na coraz więcej grymasów, powstają też rzęsy i brwi. Skórę pokrywa lanugo, czyli delikatny meszek płodowy chroniący skórę przed długotrwałym kontaktem z płynem owodniowym.",
+      "cialo_kobiety": "Niektóre kobiety, zwłaszcza w kolejnej ciąży, zaczynają wyczuwać pierwsze ruchy dziecka jako delikatne trzepotanie. Jeśli to Twoja pierwsza ciąża, na wyraźniejsze ruchy często trzeba jeszcze poczekać kilka tygodni. Brzuch rośnie, a środek ciężkości przesuwa się. Może pojawić się większa potliwość i wzmożony apetyt.",
+      "typowe_objawy": [
+        "Pierwsze wyczuwalne ruchy dziecka (u części kobiet)",
+        "Wzmożony apetyt",
+        "Potliwość",
+        "Rosnący brzuch"
+      ],
+      "co_zrobic": [
+        "Dbaj o odpowiednią podaż wapnia i żelaza w diecie (w tym okresie kości dziecka intensywnie się mineralizują).",
+        "Zadbaj o odpowiednie nawodnienie organizmu.",
+        "Jeśli odczuwasz pierwsze ruchy dziecka, spróbuj zapamiętać, kiedy pojawiają się najczęściej."
+      ],
+      "badania_i_wizyty": [
+        "Rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży (z morfologią i badaniem ogólnym moczu w 15.–20. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Silny ból brzucha.",
+        "Uporczywy ból głowy lub zaburzenia widzenia."
+      ],
+      "wskazowki": [
+        "Pierwsze wyczuwalne ruchy mogą pojawić się w szerokim zakresie czasu, nawet w okolicach 24. t.c.",
+        "W pierwszej ciąży ruchy często wyczuwa się nieco później niż w kolejnych.",
+        "Pierwsze ruchy dziecka bywają mylone z pracą jelit, ale z czasem staną się wyraźniejsze."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 15
+    },
+    {
+      "tydzien": 16,
+      "trymestr": 2,
+      "miesiac_ciazy": 4,
+      "etap_nazwa": "Powstaje tkanka tłuszczowa",
+      "podsumowanie": "Pod skórą zaczyna odkładać się tkanka tłuszczowa. Płód ćwiczy chwytanie i ssanie.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 18 cm",
+        "waga": "ok. 150 g",
+        "porownanie": "gruszka"
+      },
+      "rozwoj_dziecka": "Skóra jest cienka i czerwona, pokrywa ją delikatny meszek, a pod spodem zaczyna odkładać się tkanka tłuszczowa, ważna dla późniejszej regulacji temperatury ciała. Dziecko potrafi już zaciskać piąstki i ssać np. kciuk. Szkielet z chrzęstnego stopniowo przekształca się w kostny za sprawą wchłanianego wapnia. Malutkie serce pracuje bardzo intensywnie i każdego dnia pompuje ogromne ilości krwi w stosunku do swojej wielkości, nawet ponad 20 litrów dziennie.",
+      "cialo_kobiety": "Macica znajduje się już ponad spojeniem łonowym, przez co brzuch staje się wyraźnie zaokrąglony, a skóra napina się. Może pojawić się ból krzyża i bioder w związku z rozluźnianiem stawów i więzadeł. Niektóre kobiety odczuwają zawroty głowy przy zmianie pozycji.",
+      "typowe_objawy": [
+        "Ból krzyża i bioder",
+        "Napięcie skóry brzucha",
+        "Zawroty głowy przy wstawaniu"
+      ],
+      "co_zrobic": [
+        "Umów USG prenatalne II trymestru (połówkowe), wykonywane między 18. a 22. t.c.",
+        "Stosuj poduszkę ciążową i odpoczywaj, szczególnie na lewym boku.",
+        "Wstawaj powoli, by unikać zawrotów głowy.",
+        "Regularnie nawilżaj skórę brzucha."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyła – rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży (z morfologią i badaniem ogólnym moczu w 15.–20. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Silny, jednostronny ból brzucha."
+      ],
+      "wskazowki": [
+        "To dobry czas na zapoznanie się z ofertami szkół rodzenia – spotkania mogą rozpocząć się w 21 t.c.",
+        "Rosnący brzuch zmienia środek ciężkości. Staraj się stać prosto i nie wysuwaj bioder nadmiernie do przodu, aby odciążyć kręgosłup.",
+        "Delikatne ćwiczenia rozciągające łagodzą ból pleców – warto rozważyć wizytę u fizjoterapeuty lub zajęcia dla kobiet w ciąży."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 16
+    },
+    {
+      "tydzien": 17,
+      "trymestr": 2,
+      "miesiac_ciazy": 4,
+      "etap_nazwa": "Szansa na poznanie płci",
+      "podsumowanie": "Dziecko zaczyna już odbierać pierwsze dźwięki, w tym bicie serca i głos mamy. Skórę pokrywa ochronna maź płodowa.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 20 cm",
+        "waga": "ok. 180 g",
+        "porownanie": "papryka"
+      },
+      "rozwoj_dziecka": "Zewnętrzne narządy płciowe są coraz lepiej rozwinięte – w sprzyjających warunkach podczas badania USG można już określić płeć, nie zawsze jest to jednak możliwe. Uszy są już na swoim miejscu, a płód zaczyna odbierać pierwsze dźwięki. Skórę pokrywa maź płodowa, która chroni ją przed działaniem płynu owodniowego.",
+      "cialo_kobiety": "Ruchy dziecka stają się wyraźniejsze. Częsty jest obrzęk nóg, zwłaszcza wieczorem, oraz uczucie ciężkości. Mogą pojawić się delikatne bóle podbrzusza lub uczucie ciągnięcia w pachwinach związane z rozciąganiem się wiązadeł. Apetyt dopisuje, ale sen bywa mniej komfortowy.",
+      "typowe_objawy": [
+        "Ból więzadeł utrzymujących macicę",
+        "Obrzęk nóg",
+        "Uczucie ciężkości",
+        "Trudności z wygodnym snem"
+      ],
+      "co_zrobic": [
+        "Umów USG prenatalne II trymestru, tzw. połówkowe (między 18. a 22. t.c.)",
+        "Unoś nogi, by zmniejszyć obrzęki.",
+        "Pij zwiększoną ilość wody."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyła – rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży (z morfologią i badaniem ogólnym moczu w 15.–20. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Nagły, silny obrzęk twarzy lub rąk.",
+        "Silny ból głowy z zaburzeniami widzenia."
+      ],
+      "wskazowki": [
+        "Macica wyraźnie wychodzi z miednicy, dlatego może pojawiać się uczucie ciągnięcia po bokach podbrzusza, szczególnie przy wstawaniu, obracaniu się czy nagłym ruchu – to typowy ból więzadeł obłych.",
+        "Głosy i muzyka mogą już docierać do dziecka – badania pokazują, że po narodzinach noworodki potrafią rozpoznawać dźwięki znane im jeszcze z życia płodowego."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 17
+    },
+    {
+      "tydzien": 18,
+      "trymestr": 2,
+      "miesiac_ciazy": 5,
+      "etap_nazwa": "USG II trymestru",
+      "podsumowanie": "Rozpoczyna się okno na szczegółowe USG II trymestru oceniające anatomię dziecka. Zmysły dziecka rozwijają się intensywnie.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 22 cm",
+        "waga": "ok. 220 g",
+        "porownanie": "mango"
+      },
+      "rozwoj_dziecka": "W mózgu wyodrębniają się obszary odpowiedzialne za zmysły: dotyk, smak, słuch, wzrok i węch. Włosy na głowie zaczynają rosnąć. Dziecko coraz lepiej słyszy dźwięki dochodzące z organizmu mamy, takie jak bicie serca czy przepływ krwi.",
+      "cialo_kobiety": "Ruchy dziecka są coraz częstsze i łatwiejsze do rozpoznania. U części kobiet pojawia się zgaga lub uczucie pełności po posiłkach związane ze zmianami w pracy układu pokarmowego. Skóra brzucha może stać się bardziej napięta i wrażliwa.",
+      "typowe_objawy": [
+        "Zawroty głowy",
+        "Ból więzadeł podtrzymujących macicę",
+        "Zgaga",
+        "Wrażliwa skóra"
+      ],
+      "co_zrobic": [
+        "Zmieniaj pozycję powoli, by łagodzić ból więzadeł.",
+        "Jedz mniejsze posiłki przy zgadze.",
+        "Codziennie nawilżaj skórę brzucha."
+      ],
+      "badania_i_wizyty": [
+        "USG prenatalne II trymestru, tzw. połówkowe – ocena anatomii płodu (między 18. a 22. t.c.).",
+        "Jeśli się nie odbyła – rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży (z morfologią i badaniem ogólnym moczu w 15.–20. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwawienie z dróg rodnych.",
+        "Silny, narastający ból brzucha lub gorączka."
+      ],
+      "wskazowki": [
+        "USG połówkowe to jedno z najważniejszych badań w ciąży – pozwala szczegółowo ocenić budowę i rozwój dziecka, pracę jego narządów oraz wcześnie wykryć wiele wad wrodzonych.",
+        "Podczas tego USG zwykle można już poznać płeć dziecka!"
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 18
+    },
+    {
+      "tydzien": 19,
+      "trymestr": 2,
+      "miesiac_ciazy": 5,
+      "etap_nazwa": "Półmetek ciąży",
+      "podsumowanie": "To połowa ciąży. Dziecko jest bardzo aktywne, a większość mam wyraźnie odczuwa już jego ruchy.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 24 cm",
+        "waga": "ok. 270 g",
+        "porownanie": "banan"
+      },
+      "rozwoj_dziecka": "Dziecko jest bardzo aktywne — kopie, przeciąga się, obraca. Połyka płyn owodniowy, ćwicząc układ pokarmowy, a w jelitach gromadzi się smółka – pierwszy stolec po urodzeniu. Dziecko coraz lepiej rozpoznaje rytm dnia mamy.",
+      "cialo_kobiety": "Macica sięga już mniej więcej wysokości pępka, dlatego brzuch jest wyraźnie zaokrąglony i coraz trudniej go ukryć. Ruchy dziecka są już z reguły wyraźne. Mogą pojawić się rozstępy skóry, obrzęki i ból pleców.",
+      "typowe_objawy": [
+        "Wyraźne ruchy dziecka",
+        "Ból pleców",
+        "Obrzęki",
+        "Rozstępy"
+      ],
+      "co_zrobic": [
+        "Rozważ zapisanie się do szkoły rodzenia – spotkania mogą rozpocząć się w 21 t.c.",
+        "Półmetek ciąży to dobry moment, by zaplanować pierwsze zakupy – listę najpotrzebniejszych rzeczy znajdziesz w naszej aplikacji."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyło – USG prenatalne II trymestru, tzw. połówkowe (między 18. a 22. t.c.)",
+        "Jeśli się nie odbyła – rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży (z morfologią i badaniem ogólnym moczu w 15.–20. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Silny ból głowy z zaburzeniami widzenia.",
+        "Nagły, znaczny obrzęk twarzy i rąk."
+      ],
+      "wskazowki": [
+        "Nawilżaj skórę, by łagodzić swędzenie, napięcie i rozstępy.",
+        "Spanie na boku, zwłaszcza lewym, poprawia krążenie i komfort. Unikaj spania na plecach."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 19
+    },
+    {
+      "tydzien": 20,
+      "trymestr": 2,
+      "miesiac_ciazy": 5,
+      "etap_nazwa": "Rytm dobowy i smak",
+      "podsumowanie": "Dziecko ma regularne cykle aktywności oraz odpoczynku. Rozwija się zmysł smaku.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 26 cm",
+        "waga": "ok. 330 g",
+        "porownanie": "marchewka"
+      },
+      "rozwoj_dziecka": "Cykl dobowy dziecka staje się bardziej regularny, coraz wyraźniejsze stają się okresy aktywności i odpoczynku – wiele maluchów jest najbardziej aktywnych wieczorem lub w nocy. Rozwija się zmysł smaku – niektóre składniki diety mamy wpływają na smak płynu owodniowego, dzięki czemu dziecko poznaje pierwsze smaki jeszcze przed narodzinami.",
+      "cialo_kobiety": "Samopoczucie z reguły dopisuje. Mimo to mogą pojawić się żylaki, hemoroidy i obrzęki z powodu zwiększonej objętości krwi i nacisku macicy. Skóra brzucha może swędzieć w miarę rozciągania.",
+      "typowe_objawy": [
+        "Regularne ruchy dziecka",
+        "Swędzenie skóry brzucha",
+        "Żylaki",
+        "Obrzęki"
+      ],
+      "co_zrobic": [
+        "Rozważ zajęcia dla kobiet ciężarnych lub ćwicz regularnie w domu.",
+        "Zacznij obserwować ruchy dziecka.",
+        "Unoś nogi i unikaj długiego stania czy siedzenia w jednej pozycji.",
+        "Jedz pokarmy bogate w błonnik."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyło – USG prenatalne II trymestru, tzw. połówkowe (18.–22. t.c.)",
+        "Jeśli się nie odbyła – rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży (z morfologią i badaniem ogólnym moczu w 15.–20. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Nasilone swędzenie ciała, zwłaszcza dłoni i stóp – może wskazywać na cholestazę (zgłoś to lekarzowi).",
+        "Krwawienie z dróg rodnych."
+      ],
+      "wskazowki": [
+        "Smaki diety mamy docierają do płynu owodniowego — różnorodna dieta kształtuje preferencje smakowe dziecka.",
+        "Każde dziecko ma własny rytm aktywności – wiele maluchów jest najbardziej ruchliwych wieczorem, choć zdarzają się odstępstwa.",
+        "Jeśli to Twoja pierwsza ciąża i jeszcze nie czujesz ruchów dziecka, nie martw się — wiele kobiet zaczyna je odczuwać dopiero między 20. a 24. t.c."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 20
+    },
+    {
+      "tydzien": 21,
+      "trymestr": 2,
+      "miesiac_ciazy": 5,
+      "etap_nazwa": "Rozwija się zmysł dotyku",
+      "podsumowanie": "Dziecko coraz aktywniej poznaje swoje ciało i otoczenie. Potrafi już chwytać dłońmi i reaguje na dotyk.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 27 cm",
+        "waga": "ok. 400 g",
+        "porownanie": "papaja"
+      },
+      "rozwoj_dziecka": "Rozwija się zmysł dotyku – dziecko potrafi chwytać pępowinę, dotykać swojej twarzy i badać otoczenie dłońmi. Rysy twarzy są już dobrze widoczne, a brwi i rzęsy coraz bardziej przypominają te, które będzie miało po narodzinach. Układ nerwowy dojrzewa, umożliwiając coraz lepszą koordynację ruchów.",
+      "cialo_kobiety": "Brzuch jest duży i wyraźny. Mogą nasilać się bóle pleców i obrzęki, a skóra bywa przesuszona i swędząca. Niektóre kobiety odczuwają skurcze Braxtona-Hicksa – sporadyczne, naturalne skurcze przepowiadające, które polegają na nieregularnym twardnieniu brzucha i powoli przygotowują macicę do porodu.",
+      "typowe_objawy": [
+        "Regularne ruchy dziecka",
+        "Skurcze Braxtona-Hicksa",
+        "Ból pleców",
+        "Obrzęki",
+        "Swędzenie skóry"
+      ],
+      "co_zrobic": [
+        "Odpoczywaj na lewym boku i zmieniaj pozycje w ciągu dnia.",
+        "Dbaj o regularną aktywność fizyczną dostosowaną do ciąży oraz o nawodnienie.",
+        "Rozważ masaż dla kobiet w ciąży."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyło – USG prenatalne II trymestru, tzw. połówkowe (między 18. a 22. t.c.)",
+        "Rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży w 21.–26. t.c. (z morfologią i badaniem ogólnym moczu + toksoplazmozą IgG/IgM, jeśli w I trymestrze wynik wskazywał na brak odporności)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Regularne, bolesne skurcze.",
+        "Wyciek płynu z dróg rodnych.",
+        "Nasilone swędzenie dłoni i stóp."
+      ],
+      "wskazowki": [
+        "Skurcze Braxtona-Hicksa to naturalny trening macicy przed porodem. Jeśli skurcze są regularne i bolesne – skontaktuj się z lekarzem.",
+        "Dziecko może już reagować na głaskanie brzucha lub zmianę pozycji ciała mamy."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 21
+    },
+    {
+      "tydzien": 22,
+      "trymestr": 2,
+      "miesiac_ciazy": 5,
+      "etap_nazwa": "Dojrzewanie płuc",
+      "podsumowanie": "Płuca dziecka rozpoczynają ważny etap dojrzewania - przygotowują się do oddychania.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 28 cm",
+        "waga": "ok. 480 g",
+        "porownanie": "grejpfrut"
+      },
+      "rozwoj_dziecka": "W płucach zaczyna powstawać surfaktant – substancja niezbędna do prawidłowego oddychania po narodzinach. Dziecko coraz lepiej słyszy i może reagować na głośniejsze dźwięki oraz znajome głosy. Skóra jest nadal cienka, pomarszczona i czerwonawa, ponieważ tkanka tłuszczowa dopiero zaczyna się odkładać. Ruchy stają się coraz silniejsze i bardziej skoordynowane.",
+      "cialo_kobiety": "Brzuch rośnie szybko, co może powodować trudności ze snem, nasilać bóle pleców, swędzenie i uczucie napięcia skóry. Niektóre kobiety odczuwają mrowienie dłoni lub drętwienie palców związane z zespołem cieśni nadgarstka, wywołanym zatrzymywaniem wody w organizmie. Mogą pojawić się obrzęki kostek i stóp.",
+      "typowe_objawy": [
+        "Obrzęki kostek i stóp",
+        "Mrowienie dłoni",
+        "Trudności ze snem",
+        "Ruchy dziecka"
+      ],
+      "co_zrobic": [
+        "Unoś nogi i unikaj długiego stania, by zmniejszyć obrzęki.",
+        "Stosuj poduszkę ciążową dla wsparcia kręgosłupa i brzucha.",
+        "Rób przerwy na odpoczynek w ciągu dnia."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyło – USG prenatalne II trymestru, tzw. połówkowe (między 18. a 22. t.c.)",
+        "Jeśli się nie odbyła - rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży w 21.–26. t.c. (z morfologią i badaniem ogólnym moczu + toksoplazmozą IgG/IgM, jeśli w I trymestrze wynik wskazywał na brak odporności)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Nagły, silny obrzęk twarzy i rąk.",
+        "Nasilone swędzenie dłoni i stóp.",
+        "Silny ból głowy z zaburzeniami widzenia."
+      ],
+      "wskazowki": [
+        "To dobry moment, by zacząć mówić i śpiewać do dziecka.",
+        "Dziecko słyszy już wiele dźwięków z organizmu mamy, takich jak bicie serca czy przepływ krwi.",
+        "Przy mrowieniu lub drętwieniu dłoni pomocne może być unikanie długotrwałego zginania nadgarstków i odpoczynek z uniesionymi rękami"
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 22
+    },
+    {
+      "tydzien": 23,
+      "trymestr": 2,
+      "miesiac_ciazy": 6,
+      "etap_nazwa": "Rozwija się zmysł równowagi",
+      "podsumowanie": "Rozwija się ucho wewnętrzne odpowiedzialne za równowagę i orientację ciała w przestrzeni.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 30 cm",
+        "waga": "ok. 570 g",
+        "porownanie": "kolba kukurydzy"
+      },
+      "rozwoj_dziecka": "Rozwija się ucho wewnętrzne odpowiedzialne za zmysł równowagi, dzięki czemu dziecko coraz lepiej orientuje się w swoim położeniu i ruchach. Skóra staje się mniej przezroczysta, a włosy zaczynają nabierać pigmentu, jaki będzie widoczny w momencie narodzin. Szpik kostny produkuje już krwinki, przejmując te zadanie od wątroby i śledziony.",
+      "cialo_kobiety": "Piersi przygotowują się do karmienia, dlatego u części kobiet może pojawić się wyciek pokarmu z brodawek sutkowych, tzw. siara. Rosnący brzuch coraz bardziej zmienia środek ciężkości ciała, co wpływa na postawę i może zwiększać obciążenie kręgosłupa. Skurcze łydek są na tym etapie częstą dolegliwością.",
+      "typowe_objawy": [
+        "Skurcze łydek",
+        "Wyciek pokarmu z brodawek",
+        "Zgaga",
+        "Bezsenność",
+        "Przejściowe pogorszenie równowagi"
+      ],
+      "co_zrobic": [
+        "Dbaj o podaż magnezu i wapnia przy skurczach łydek.",
+        "Unikaj obfitych posiłków przed snem."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyła - rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży w 21.–26. t.c. (z morfologią i badaniem ogólnym moczu + toksoplazmozą IgG/IgM, jeśli w I trymestrze wynik wskazywał na brak odporności)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Krwisty lub jednostronny wyciek z brodawki sutkowej",
+        "Gorączka lub objawy ciężkiej infekcji.",
+        "Wyciek płynu owodniowego lub krwawienie."
+      ],
+      "wskazowki": [
+        "Wraz ze wzrostem brzucha staraj się utrzymywać wyprostowaną postawę ciała i unikaj odchylania tułowia do tyłu, co może nasilać ból pleców",
+        "U części kobiet z piersi wydziela się siara – gęsty, żółtawy pokarm będący pierwszym mlekiem dla dziecka. To całkowicie naturalne!",
+        "Okresowe kołatanie serca może być naturalnym efektem zmian zachodzących w układzie krążenia podczas ciąży"
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 23
+    },
+    {
+      "tydzien": 24,
+      "trymestr": 2,
+      "miesiac_ciazy": 6,
+      "etap_nazwa": "Reakcje na głos",
+      "podsumowanie": "Dziecko reaguje na znajome głosy. Jednocześnie szybko przybiera na wadze i nabiera bardziej noworodkowych kształtów.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 32 cm",
+        "waga": "ok. 670 g",
+        "porownanie": "kalarepa"
+      },
+      "rozwoj_dziecka": "Dziecko coraz lepiej reaguje na znajome głosy, a badania sugerują, że po narodzinach noworodki pamiętają dźwięki słyszane w życiu płodowym. Dzięki rozwojowi płuc i intensywnej opiece neonatologicznej szanse dzieci urodzonych bardzo przedwcześnie są dziś znacznie większe niż jeszcze kilkadziesiąt lat temu.",
+      "cialo_kobiety": "To czas na wykonanie testu obciążenia glukozą w kierunku cukrzycy ciążowej. Niektóre kobiety odczuwają duszność z powodu nacisku macicy na przeponę – warto wykonywać ćwiczenia oddechowe. Brzuch jest coraz większy i cięższy, dlatego mogą nasilać się bóle pleców, zgaga oraz hemoroidy.",
+      "typowe_objawy": [
+        "Duszność",
+        "Ból pleców",
+        "Zgaga",
+        "Swędzenie skóry"
+      ],
+      "co_zrobic": [
+        "Ćwicz spokojny, głęboki oddech przeponowy – może pomóc przy uczuciu duszności i przyda się podczas porodu.",
+        "Stosuj poduszkę ciążową i śpij na lewym boku - to najlepsza pozycja do odpoczynku w ciąży.",
+        "Codziennie nawilżaj skórę brzucha."
+      ],
+      "badania_i_wizyty": [
+        "Test doustnego obciążenia glukozą 75 g (między 24. a 28. t.c.)",
+        "U kobiet z grupą krwi Rh(-) test na przeciwciała anty-D (między 26.–28. t.c.).",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (optymalnie 28.–30. t.c. oraz odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Jeśli się nie odbyła - rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży w 21.–26. t.c. (z morfologią i badaniem ogólnym moczu + toksoplazmozą IgG/IgM, jeśli w I trymestrze wynik wskazywał na brak odporności)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Nasilone swędzenie ciała, zwłaszcza dłoni i stóp – może wskazywać na cholestazę (zgłoś to lekarzowi).",
+        "Silny ból głowy z zaburzeniami widzenia.",
+        "Nagła nasilona duszność, ból w klatce piersiowej lub omdlenie."
+      ],
+      "wskazowki": [
+        "Wczesne wykrycie cukrzycy ciążowej pozwala skutecznie nią zarządzać.",
+        "Profilaktyka anty-D chroni przed konfliktem serologicznym w obecnej i kolejnych ciążach – dotyczy kobiet z grupą krwi Rh(-).",
+        "Rosnąca macica może ograniczać swobodne ruchy przepony, dlatego uczucie zadyszki przy wysiłku bywa na tym etapie całkowicie normalne.",
+        "Mówienie i śpiewanie do dziecka wzmacniają więź jeszcze przed narodzinami."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 24
+    },
+    {
+      "tydzien": 25,
+      "trymestr": 2,
+      "miesiac_ciazy": 6,
+      "etap_nazwa": "Otwieranie oczu",
+      "podsumowanie": "Dziecko zaczyna powoli otwierać oczy i coraz wyraźniej reaguje na światło, ale też dotyk.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 34 cm",
+        "waga": "ok. 780 g",
+        "porownanie": "główka sałaty"
+      },
+      "rozwoj_dziecka": "Powieki, dotąd zrośnięte, zaczynają się otwierać – dziecko mruga i może reagować na światło przenikające przez brzuch mamy, choć jego wzrok będzie dojrzewał jeszcze długo po porodzie. Dziecko aktywnie reaguje też na dotyk. Płuca produkują coraz więcej surfaktantu, który zapobiega sklejaniu się pęcherzyków płucnych po narodzinach. Pod skórą odkłada się tkanka tłuszczowa, dzięki czemu ciało staje się bardziej zaokrąglone.",
+      "cialo_kobiety": "Coraz częściej mogą pojawiać się skurcze Braxtona-Hicksa – bezbolesne, występujące w macicy i przygotowujące powoli do porodu. Jeśli dziecko układa się wysoko, możesz także odczuwać ucisk pod żebrami lub zadyszkę przy wysiłku.",
+      "typowe_objawy": [
+        "Mocne ruchy dziecka",
+        "Skurcze Braxtona-Hicksa",
+        "Obrzęki nóg",
+        "Problemy ze snem i zmęczenie"
+      ],
+      "co_zrobic": [
+        "Obserwuj regularność ruchów dziecka.",
+        "Zapisz się do szkoły rodzenia, jeśli jeszcze tego nie zrobiłaś.",
+        "Odpoczywaj i unoś nogi."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli niewykonany – test doustnego obciążenia glukozą 75 g (między 24. a 28. t.c.)",
+        "Jeśli niewykonany – u kobiet z grupą krwi Rh(-) test na przeciwciała anty-D (26.–28. t.c.).",
+        "Jeśli się nie odbyła – rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży w 21.–26. t.c. (z morfologią i badaniem ogólnym moczu + toksoplazmozą IgG/IgM, jeśli w I trymestrze wynik wskazywał na brak odporności)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Wyraźne zmniejszenie liczby ruchów dziecka.",
+        "Obrzęk w połączeniu z wysokim ciśnieniem – może oznaczać stan przedrzucawkowy."
+      ],
+      "wskazowki": [
+        "Pod koniec II trymestru warto zacząć planować wyprawkę – listę najpotrzebniejszych rzeczy znajdziesz w naszej aplikacji.",
+        "Świadome obserwowanie ruchów dziecka pomaga ocenić jego dobrostan."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 25
+    },
+    {
+      "tydzien": 26,
+      "trymestr": 2,
+      "miesiac_ciazy": 6,
+      "etap_nazwa": "Mózg ćwiczy sen",
+      "podsumowanie": "Mózg dziecka intensywnie dojrzewa – pojawiają się okresy snu przypominające fazę REM.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 35 cm",
+        "waga": "ok. 900 g",
+        "porownanie": "kalafior"
+      },
+      "rozwoj_dziecka": "Mózg dziecka szybko dojrzewa — tworzą się nowe połączenia nerwowe, a jego powierzchnia zaczyna mieć coraz więcej bruzd i zakrętów. Sen staje się bardziej złożony: pojawiają się okresy aktywności przypominające fazę REM, związaną z szybkimi ruchami oczu i intensywną pracą mózgu.",
+      "cialo_kobiety": "Po aktywnym dniu możesz szybciej czuć ciężar brzucha, napięcie w dole pleców albo potrzebę częstszych przerw. To dobry czas, by zwolnić tempo, dzielić obowiązki i zadbać o wygodę w codziennych czynnościach – od snu po pracę przy biurku czy dłuższe spacery.",
+      "typowe_objawy": [
+        "Zgaga",
+        "Duszność",
+        "Obrzęki",
+        "Zmęczenie"
+      ],
+      "co_zrobic": [
+        "Zacznij kompletować wyprawkę i planować organizację po narodzinach.",
+        "Odpoczywaj i dziel obowiązki."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyła – rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży w 21.–26. t.c. (z morfologią i badaniem ogólnym moczu + toksoplazmozą IgG/IgM, jeśli w I trymestrze wynik wskazywał na brak odporności)",
+        "Jeśli niewykonany – test doustnego obciążenia glukozą 75 g (między 24. a 28. t.c.)",
+        "Jeśli niewykonany – u kobiet z grupą krwi Rh(-) test na przeciwciała anty-D (26.–28. t.c.)."
+      ],
+      "na_co_zwrocic_uwage": [
+        "Wyraźne zmniejszenie ruchów dziecka.",
+        "Silny ból głowy z zaburzeniami widzenia i obrzękami.",
+        "Nagła nasilona duszność, ból w klatce piersiowej lub omdlenie."
+      ],
+      "wskazowki": [
+        "Obserwuj regularność ruchów dziecka i zgłoś lekarzowi ich wyraźne zmniejszenie.",
+        "Nowy standard wprowadza konsultację anestezjologiczną dla kobiet planujących znieczulenie porodu."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 26
+    },
+    {
+      "tydzien": 27,
+      "trymestr": 2,
+      "miesiac_ciazy": 6,
+      "etap_nazwa": "Koniec II trymestru",
+      "podsumowanie": "Kończy się II trymestr – ruchy dziecka stają się mocniejsze i bardziej wyraźne.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 37 cm",
+        "waga": "ok. 1 kg",
+        "porownanie": "bakłażan"
+      },
+      "rozwoj_dziecka": "Ruchy dziecka stają się silne i wyraźne — od kopnięć po przeciąganie. U dziecka może pojawiać się czkawka, co będzie odczuwalne jako gwałtowne wzdrygnięcia brzucha. Jest to też czas intensywnego przybierania na wadze i dojrzewania narządów. Mózg kontroluje coraz więcej funkcji organizmu, w tym temperaturę. Dziecko reaguje na smak i zapach poprzez wody płodowe.",
+      "cialo_kobiety": "Wizyty kontrolne stają się częstsze. U kobiet z grupą krwi RhD(-), u których nie wykryto przeciwciał anty-D, lekarz zaleci podanie profilaktycznie immunoglobuliny anty-D. Typowe dolegliwości – zgaga, duszność, obrzęki, ból pleców – mogą się nasilać.",
+      "typowe_objawy": [
+        "Zgaga",
+        "Duszność",
+        "Obrzęki",
+        "Bóle pleców",
+        "Czkawka dziecka"
+      ],
+      "co_zrobic": [
+        "Umów USG prenatalne III trymestru (między 28. a 32. t.c.).",
+        "Zaplanuj z lekarzem wizyty kontrolne."
+      ],
+      "badania_i_wizyty": [
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Zalecane szczepienie na Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty",
+        "Jeśli niewykonany – u kobiet z grupą krwi Rh(-) test na przeciwciała anty-D (26.–28. t.c.).",
+        "Jeśli niewykonany – test doustnego obciążenia glukozą 75 g (między 24. a 28. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Wyraźne zmniejszenie ruchów dziecka.",
+        "Obrzęk w połączeniu z wysokim ciśnieniem – może oznaczać stan przedrzucawkowy."
+      ],
+      "wskazowki": [
+        "Warto znać typowy rytm aktywności swojego dziecka. Jeśli zauważysz wyraźne osłabienie ruchów, skontaktuj się z lekarzem lub położną.",
+        "III trymestr to dobry moment, aby zacząć przygotowywać plan porodu – dokument określający Twoje preferencje porodu i opieki okołoporodowej."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 27
+    },
+    {
+      "tydzien": 28,
+      "trymestr": 3,
+      "miesiac_ciazy": 7,
+      "etap_nazwa": "Początek III trymestru",
+      "podsumowanie": "Zaczyna się III trymestr – przed dzieckiem okres intensywnego wzrostu i przybierania na wadze.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 38 cm",
+        "waga": "ok. 1,2 kg",
+        "porownanie": "dynia piżmowa"
+      },
+      "rozwoj_dziecka": "Dziecko waży już ponad kilogram i szybko przybiera na wadze – tkanka tłuszczowa wygładza skórę. Organizm dziecka zaczyna samodzielnie regulować glukozę, magazynować energię i przygotowywać się do życia bez stałych dostaw składników przez łożysko. Kości twardnieją i potrzebują dużych ilości wapnia.",
+      "cialo_kobiety": "Brzuch jest duży, a poruszanie się coraz bardziej wymagające. Mogą nasilać się zmęczenie, zgaga, zaparcia i żylaki. W ciąży objętość krwi wzrasta nawet o około 30-50%, więc serce pracuje intensywniej niż zwykle – dlatego sporadyczne uczucie szybszego bicia serca często jest fizjologicznym objawem.",
+      "typowe_objawy": [
+        "Sporadyczne kołatanie serca",
+        "Zgaga",
+        "Zaparcia",
+        "Częstomocz",
+        "Zmęczenie"
+      ],
+      "co_zrobic": [
+        "Zacznij kompletować wyprawkę i planować organizację po narodzinach.",
+        "Zadbaj o podaż wapnia w diecie – ma kluczowe znaczenie dla kości dziecka.",
+        "Jedz pokarmy bogate w błonnik.",
+        "Odpoczywaj na lewym boku i rób przerwy w ciągu dnia."
+      ],
+      "badania_i_wizyty": [
+        "USG prenatalne III trymestru (między 28. a 32. t.c.).",
+        "U kobiet z grupą krwi Rh(-) test na przeciwciała anty-D (26.–28. t.c.) oraz w razie potrzeby podanie profilaktycznie immunoglobuliny anty-D (26.–28. t.c.)",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Zalecane szczepienie Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty",
+        "Jeśli niewykonany – test doustnego obciążenia glukozą 75 g (między 24. a 28. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Nasilone swędzenie ciała, zwłaszcza dłoni i stóp – może wskazywać na cholestazę (zgłoś to lekarzowi).",
+        "Wyraźne zmniejszenie ruchów dziecka.",
+        "Silny ból brzucha lub krwawienie."
+      ],
+      "wskazowki": [
+        "Profilaktyka anty-D chroni przed konfliktem serologicznym w obecnej i kolejnych ciążach – dotyczy kobiet z grupą krwi Rh(-).",
+        "Dziecko może mieć już własne stałe pory aktywności, które wiele mam zaczyna łatwo rozpoznawać."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 28
+    },
+    {
+      "tydzien": 29,
+      "trymestr": 3,
+      "miesiac_ciazy": 7,
+      "etap_nazwa": "Dojrzewanie mózgu",
+      "podsumowanie": "Mózg dziecka tworzy charakterystyczne bruzdy. Szpik przejmuje produkcję krwinek.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 39 cm",
+        "waga": "ok. 1,3 kg",
+        "porownanie": "główka kapusty"
+      },
+      "rozwoj_dziecka": "Dziecko zajmuje coraz więcej miejsca, więc ilość płynu owodniowego zaczyna się zmniejszać – z tego powodu jego ruchy są dużo mocniej wyczuwalne. Powierzchnia mózgu tworzy bruzdy i zakręty, zwiększając swoją powierzchnię. Szpik kostny w pełni przejmuje produkcję czerwonych krwinek. Może pojawiać się czkawka, co będzie odczuwalne jako gwałtowne wzdrygnięcia brzucha.",
+      "cialo_kobiety": "Z uwagi na duży i ciężki brzuch mogą pojawić się trudności z oddychaniem i bezsenność. Skurcze Braxtona-Hicksa stają się częstsze. Niektóre kobiety odczuwają ból miednicy i pleców, dlatego tak ważne są systematyczne ćwiczenia.",
+      "typowe_objawy": [
+        "Duszność",
+        "Bezsenność",
+        "Skurcze Braxtona-Hicksa",
+        "Ból pleców i miednicy",
+        "Zgaga"
+      ],
+      "co_zrobic": [
+        "Stosuj poduszkę ciążową i odpoczywaj, szczególnie na lewym boku.",
+        "Wykonuj ćwiczenia oddechowe, aby poprawić komfort oddychania i przygotować się do porodu."
+      ],
+      "badania_i_wizyty": [
+        "Podanie profilaktycznie immunoglobuliny anty-D (26.–28. t.c.) u kobiet z grupą krwi Rh(-)",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Jeśli się nie odbyło – USG III trymestru (między 28. a 32. t.c.).",
+        "Zalecane szczepienie Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Nasilone swędzenie, zwłaszcza dłoni i stóp – może wskazywać na cholestazę.",
+        "Regularne, bolesne skurcze macicy.",
+        "Wyciek płynu z dróg rodnych."
+      ],
+      "wskazowki": [
+        "Odróżnienie skurczów przepowiadających od porodowych bywa trudne. Pierwsze są zwykle nieregularne, nie nasilają się z czasem i często ustępują po odpoczynku, nawodnieniu lub zmianie pozycji ciała. Drugie z czasem stają się coraz częstsze, silniejsze i bardziej regularne."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 29
+    },
+    {
+      "tydzien": 30,
+      "trymestr": 3,
+      "miesiac_ciazy": 7,
+      "etap_nazwa": "Synchronizacja zmysłów",
+      "podsumowanie": "Dziecko przetwarza informacje z wielu zmysłów jednocześnie.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 40 cm",
+        "waga": "ok. 1,5 kg",
+        "porownanie": "kokos"
+      },
+      "rozwoj_dziecka": "Wszystkie zmysły działają, a układ nerwowy dojrzewa na tyle, żeby coraz sprawniej łączyć bodźce docierające do niego przez słuch, dotyk, smak i wzrok. Dziecko nadal szybko przybiera na wadze, gromadząc tkankę tłuszczową, która pomaga regulować temperaturę ciała po narodzinach. Regularnie ćwiczy również ruchy oddechowe.",
+      "cialo_kobiety": "Z piersi może częściej wydzielać się siara (pierwszy pokarm). Coraz mocniej dokucza uczucie ciężkości w miednicy. Wiele kobiet odczuwa większe zmęczenie i potrzebuje więcej odpoczynku. Skurcze Braxtona-Hicksa mogą się nasilać.",
+      "typowe_objawy": [
+        "Wyciek siary z piersi",
+        "Obrzęki",
+        "Ból pleców",
+        "Bezsenność",
+        "Skurcze przepowiadające"
+      ],
+      "co_zrobic": [
+        "Przygotuj torbę do szpitala z wyprzedzeniem – listę rzeczy znajdziesz w naszej aplikacji.",
+        "Stosuj wkładki laktacyjne, jeśli pojawia się siara."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyło – USG III trymestru (między 28. a 32. t.c.).",
+        "Podanie profilaktycznie immunoglobuliny anty-D (26.–28. t.c.) u kobiet z grupą krwi Rh(-)",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Zalecane szczepienie Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Regularne, bolesne skurcze macicy.",
+        "Wyraźne zmniejszenie ruchów dziecka.",
+        "Gorączka lub objawy ciężkiej infekcji."
+      ],
+      "wskazowki": [
+        "Wyciek siary to naturalny objaw przygotowania do karmienia – już na tym etapie mogą przydać się wkładki laktacyjne.",
+        "Torbę do szpitala warto mieć zawsze pod ręką – dobrym pomysłem jest trzymanie jej w aucie lub przy drzwiach."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 30
+    },
+    {
+      "tydzien": 31,
+      "trymestr": 3,
+      "miesiac_ciazy": 7,
+      "etap_nazwa": "Ustawianie do porodu",
+      "podsumowanie": "Wiele dzieci ustawia się już główką w dół, chociaż jest jeszcze czas na zmianę.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 41 cm",
+        "waga": "ok. 1,7 kg",
+        "porownanie": "kapusta włoska"
+      },
+      "rozwoj_dziecka": "Wiele dzieci ustawia się główką w dół, przygotowując do porodu. Paznokcie sięgają już opuszków palców. Dziecko ćwiczy ssanie, połykanie i oddychanie. Lanugo zaczyna zanikać, a dzięki tkance tłuszczowej skóra staje się gładsza i mniej przezroczysta oraz dziecko coraz lepiej kontroluje temperaturę ciała.",
+      "cialo_kobiety": "Dziecko zajmuje coraz więcej miejsca kosztem płynu owodniowego, dlatego jego ruchy mogą stać się wyraźniejsze, a nawet tak silne, że potrafią na chwilę zatrzymać Cię w pół kroku powodując dyskomfort pod żebrami.",
+      "typowe_objawy": [
+        "Duszność",
+        "Wyraźniejsze ruchy dziecka",
+        "Zgaga",
+        "Częstomocz",
+        "Bezsenność"
+      ],
+      "co_zrobic": [
+        "Najwyższy czas kompletować wyprawkę – listę najpotrzebniejszych rzeczy znajdziesz w naszej aplikacji.",
+        "Zacznij rozmawiać z partnerem lub bliskimi o organizacji pierwszych tygodni po porodzie.",
+        "Dokończ przygotowania do porodu – w tym spakowana torba do szpitala czy wydrukowany plan porodu."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyło – wykonaj USG III trymestru (do 32. t.c.).",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Zalecane szczepienie Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Nasilone swędzenie, zwłaszcza dłoni i stóp – może wskazywać na cholestazę.",
+        "Nagła nasilona duszność, ból w klatce piersiowej lub omdlenie.",
+        "Wyciek płynu owodniowego lub krwawienie."
+      ],
+      "wskazowki": [
+        "Jeśli dziecko ułożone jest pośladkowo, jest jeszcze czas na zmianę. Pozycje kolankowo-łokciowe mogą sprzyjać obracaniu się dziecka.",
+        "Sporadyczne uczucie szybszego bicia serca w ciąży jest często naturalne i wynika ze zwiększonej objętości krwi."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 31
+    },
+    {
+      "tydzien": 32,
+      "trymestr": 3,
+      "miesiac_ciazy": 8,
+      "etap_nazwa": "Budowanie odporności",
+      "podsumowanie": "Dziecko otrzymuje przez łożysko coraz więcej przeciwciał od mamy, które pomogą chronić je po narodzinach.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 43 cm",
+        "waga": "ok. 1,9 kg",
+        "porownanie": "ananas"
+      },
+      "rozwoj_dziecka": "Układ odpornościowy dziecka nadal dojrzewa i uczy się rozpoznawania zagrożeń. Przez łożysko do organizmu dziecka trafia coraz więcej przeciwciał, które będą wspierać jego odporność w pierwszych miesiącach życia. Po porodzie będzie rozwijał się dalej pod wpływem kontaktu z otoczeniem, mlekiem mamy i własną mikrobiotą.",
+      "cialo_kobiety": "Coraz trudniej znaleźć wygodną pozycję do siedzenia i snu, ponieważ dziecko zajmuje już znaczną część jamy macicy. Ruchy są silne, ale możesz odczuwać je bardziej jako przeciąganie, wypychanie lub nacisk pod żebrami niż pojedyncze kopnięcia.",
+      "typowe_objawy": [
+        "Ból miednicy",
+        "Obrzęki",
+        "Bezsenność",
+        "Skurcze przepowiadające"
+      ],
+      "co_zrobic": [
+        "Odpoczywaj na lewym boku i odciążaj kręgosłup.",
+        "Kontynuuj obserwację ruchów dziecka.",
+        "Przećwicz drogę do szpitala. Warto też odwiedzić oddział (np. podczas organizowanych tam drzwi otwartych)."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyło – wykonaj USG III trymestru (do 32. t.c.).",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Zalecane szczepienie Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Wyraźne zmniejszenie ruchów dziecka.",
+        "Nagły jednostronny obrzęk lub ból łydki.",
+        "Obrzęk w połączeniu z wysokim ciśnieniem – może oznaczać stan przedrzucawkowy."
+      ],
+      "wskazowki": [
+        "To dobry moment, aby przygotować plan porodu – dokument określający Twoje preferencje porodu i opieki okołoporodowej.",
+        "Przeciwciała od mamy chronią dziecko w pierwszych miesiącach życia – dlatego tak istotne znaczenia mają zalecane szczepienia."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 32
+    },
+    {
+      "tydzien": 33,
+      "trymestr": 3,
+      "miesiac_ciazy": 8,
+      "etap_nazwa": "Coraz bliżej pierwszego oddechu",
+      "podsumowanie": "Płuca są niemal w pełni dojrzałe i zdolne do oddychania po narodzinach.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 44 cm",
+        "waga": "ok. 2,1 kg",
+        "porownanie": "melon"
+      },
+      "rozwoj_dziecka": "Organizm dziecka jest coraz lepiej przygotowany do samodzielnego funkcjonowania poza brzuchem mamy – gdyby dziecko urodziło się teraz, najczęściej nie wymagałoby już tak intensywnego wsparcia oddechowego jak kilka tygodni wcześniej. Dziecko gromadzi tkankę tłuszczową, dzięki czemu jego ciało staje się pulchniejsze. Paznokcie są w pełni wykształcone. Układ nerwowy i odpornościowy nadal dojrzewają. U chłopców jądra zwykle są już w mosznie.",
+      "cialo_kobiety": "Możesz zauważyć, że trudniej Ci się skupić, zapamiętywać szczegóły lub wykonywać kilka rzeczy jednocześnie – „ciążowy mózg” jest częstym zjawiskiem związanym z hormonalnymi zmianami oraz przystosowywaniem się organizmu do opieki nad dzieckiem. Również codzienne czynności wymagają więcej wysiłku niż wcześniej – schylanie się, wstawanie z łóżka czy dłuższe spacery.",
+      "typowe_objawy": [
+        "Problemy z pamięcią",
+        "Ból miednicy",
+        "Zmęczenie",
+        "Parcie na pęcherz",
+        "Skurcze przepowiadające"
+      ],
+      "co_zrobic": [
+        "Przygotuj dokumenty i torbę do szpitala – warto je mieć zawsze pod ręką.",
+        "Kontynuuj liczenie ruchów dziecka."
+      ],
+      "badania_i_wizyty": [
+        "Rutynowa wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży wraz z badaniami na HIV, HBsAg, morfologią, moczem (między 33. a 37. t.c.)",
+        "Ponowne badanie VDRL i HCV u kobiet ze zwiększonym ryzykiem zakażenia",
+        "Dla planujących znieczulenie porodu – konsultacja anestezjologiczna w szpitalu (po 33. t.c.)",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Zalecane szczepienie Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Regularne, bolesne skurcze macicy.",
+        "Wyciek płynu owodniowego.",
+        "Nasilone swędzenie, zwłaszcza dłoni i stóp – może wskazywać na cholestazę."
+      ],
+      "wskazowki": [
+        "Dziecko nadal intensywnie dojrzewa, ale w przypadku porodu przed terminem ma już bardzo dobre szanse na prawidłowy rozwój.",
+        "Warto mieć przygotowaną listę kontaktów na czas porodu.",
+        "Problemy z pamięcią i koncentracją w ciąży są częste. Korzystanie z notatek, list zadań i przypomnień może ułatwić codzienne funkcjonowanie."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 33
+    },
+    {
+      "tydzien": 34,
+      "trymestr": 3,
+      "miesiac_ciazy": 8,
+      "etap_nazwa": "Intensywny rozwój",
+      "podsumowanie": "Dziecko szybko przybiera na wadze, a jego ciało staje się coraz bardziej podobne do noworodka.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 45 cm",
+        "waga": "ok. 2,3 kg",
+        "porownanie": "melon"
+      },
+      "rozwoj_dziecka": "Większość rozwoju fizycznego jest zakończona — teraz dziecko głównie nabiera siły i przybiera na wadze najszybciej w całej ciąży. Kości dziecka twardnieją, ale by ułatwić poród kości czaszki pozostają miękkie i ruchome — dzięki ciemiączkom główka może bezpiecznie przejść przez kanał rodny. Pod skórą odkłada się tkanka tłuszczowa, dzięki czemu ciało staje się bardziej zaokrąglone, a skóra mniej pomarszczona. Nerki są w pełni rozwinięte. W jelitach gromadzi się smółka.",
+      "cialo_kobiety": "Jeśli dziecko zaczyna się już obniżać w miednicy, również brzuch może się obniżać, co często przynosi ulgę w oddychaniu, ale jednocześnie zwiększa nacisk na pęcherz i powoduje częstsze wizyty w toalecie.",
+      "typowe_objawy": [
+        "Parcie w miednicy",
+        "Parcie na pęcherz",
+        "Duszność",
+        "Obrzęki",
+        "Trudności z poruszaniem",
+        "Skurcze przepowiadające"
+      ],
+      "co_zrobic": [
+        "Sprawdź czego Ci brakuje w wyprawce – listę najpotrzebniejszych rzeczy znajdziesz w naszej aplikacji.",
+        "Przećwicz drogę do szpitala. Warto też odwiedzić oddział (np. podczas organizowanych tam drzwi otwartych).",
+        "Dokończ przygotowania do porodu."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyła – wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży wraz z badaniami na HIV, HBsAg, morfologią, moczem (między 33. a 37. t.c.)",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Zalecane szczepienie Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Regularne, bolesne skurcze macicy.",
+        "Nasilone swędzenie, zwłaszcza dłoni i stóp – może wskazywać na cholestazę.",
+        "Wyciek płynu owodniowego lub krwawienie."
+      ],
+      "wskazowki": [
+        "Obniżenie się brzucha może ułatwić oddychanie, ale wzmóc parcie na pęcherz",
+        "Naucz się rozpoznawać różnicę między skurczami przepowiadającymi, a porodowymi."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 34
+    },
+    {
+      "tydzien": 35,
+      "trymestr": 3,
+      "miesiac_ciazy": 8,
+      "etap_nazwa": "Ułożenie do porodu",
+      "podsumowanie": "Dziecko zwykle ustawia się już główką w dół.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 46 cm",
+        "waga": "ok. 2,6 kg",
+        "porownanie": "sałata rzymska"
+      },
+      "rozwoj_dziecka": "Dziecko jest niemal gotowe do narodzin – większość zajmuje już pozycję główką w dół. Choć większość narządów jest już gotowa do działania po narodzinach, mózg rozwija się bardzo intensywnie aż do porodu i jeszcze długo po nim. Policzki stają się pełniejsze dzięki tkance tłuszczowej i mięśniom potrzebnym do ssania. Układ pokarmowy jest gotowy do przyjęcia pierwszego mleka po narodzinach.",
+      "cialo_kobiety": "Od tego tygodnia wizyty kontrolne zwykle odbywają się częściej, np. co tydzień. Wiele kobiet zauważa, że coraz trudniej zaplanować dzień bez przerw na odpoczynek. Organizm przygotowuje się do porodu, dlatego skurcze przepowiadające mogą pojawiać się częściej i być bardziej wyraźne niż wcześniej.",
+      "typowe_objawy": [
+        "Obniżenie brzucha",
+        "Częstomocz",
+        "Skurcze przepowiadające",
+        "Parcie w miednicy",
+        "Problemy z pamięcią"
+      ],
+      "co_zrobic": [
+        "Miej przygotowaną torbę do szpitala – warto ją trzymać w aucie lub przy drzwiach.",
+        "Zapoznaj się z objawami rozpoczynającego się porodu."
+      ],
+      "badania_i_wizyty": [
+        "Posiew GBS z pochwy i odbytu w kierunku paciorkowców grupy B (35.–37. t.c.)",
+        "Jeśli się nie odbyła – wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży wraz z badaniami na HIV, HBsAg, morfologią, moczem (między 33. a 37. t.c.)",
+        "Badanie VDRL i HCV ponownie u kobiet ze zwiększonym ryzykiem zakażenia",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Zalecane szczepienie Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Regularne, bolesne skurcze co kilka minut.",
+        "Odejście wód płodowych lub krwawienie."
+      ],
+      "wskazowki": [
+        "Od 37. tygodnia ciąża uznawana jest za donoszoną.",
+        "Dodatni wynik GBS oznacza podanie antybiotyku w trakcie porodu — to rutynowe, ale ważne postępowanie.",
+        "Obserwuj regularność ruchów dziecka i zgłoś lekarzowi ich wyraźne zmniejszenie."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 35
+    },
+    {
+      "tydzien": 36,
+      "trymestr": 3,
+      "miesiac_ciazy": 9,
+      "etap_nazwa": "Ostatnie przygotowania",
+      "podsumowanie": "Większość dzieci jest już dobrze przygotowana do narodzin – czas na ocenę gotowości do porodu.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 47 cm",
+        "waga": "ok. 2,8 kg",
+        "porownanie": "burak liściowy"
+      },
+      "rozwoj_dziecka": "Dziecko jest już dobrze przygotowane do życia poza organizmem mamy. Ćwiczy oddychanie, ssanie i chwytanie. Płuca i mózg dojrzewają do ostatnich chwil ciąży. Dziecko nadal gromadzi przeciwciała, które będą wspierały jego odporność po narodzinach. Jelita wypełnia smółka — pierwszy stolec po narodzinach.",
+      "cialo_kobiety": "Organizm intensywnie przygotowuje się do porodu. Niektóre kobiety odczuwają instynkt gniazdowania, czyli silną potrzebę sprzątania i organizowania domu przed przyjściem dziecka na świat. Pojawia się nagle, z reguły pod koniec ciąży, dając duży przypływ energii, jednak wciąż możesz szybciej się męczyć i częściej potrzebować odpoczynku. Występuje coraz większy nacisk w miednicy i dyskomfort podczas snu.",
+      "typowe_objawy": [
+        "Instynkt gniazdowania",
+        "Silniejsze skurcze przepowiadające",
+        "Parcie w miednicy",
+        "Zmęczenie"
+      ],
+      "co_zrobic": [
+        "Bądź gotowa na poród — miej torbę i dokumenty zawsze pod ręką.",
+        "Sprawdź czego Ci brakuje w wyprawce – listę najpotrzebniejszych rzeczy znajdziesz w naszej aplikacji.",
+        "Odpoczywaj, zwłaszcza na lewym boku, i oszczędzaj siły."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyła – wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży wraz z badaniami na HIV, HBsAg, morfologią, moczem (między 33. a 37. t.c.)",
+        "Jeśli niewykonany – posiew GBS (do 37. t.c.)",
+        "Zalecane szczepienie na RSV między 24. a 36. t.c. (odstęp z innymi szczepieniami min. 2 tygodnie) – bezpłatne w POZ, wymagana recepta",
+        "Zalecane szczepienie Tdap (błonica, tężec, krztusiec) między 27. a 36. t.c. – bezpłatne w POZ, bez recepty"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Regularne skurcze co 5 minut przez godzinę.",
+        "Odejście wód płodowych lub krwawienie.",
+        "Nasilone swędzenie, zwłaszcza dłoni i stóp – może wskazywać na cholestazę."
+      ],
+      "wskazowki": [
+        "Wygląd noworodków może różnić się po narodzinach. Niektóre dzieci przychodzą na świat z widoczną mazią płodową lub meszkiem płodowym, podczas gdy u innych skóra jest już całkowicie gładka.",
+        "Kolor oczu widoczny po narodzinach nie zawsze jest ostateczny i może zmieniać się w pierwszych miesiącach życia."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 36
+    },
+    {
+      "tydzien": 37,
+      "trymestr": 3,
+      "miesiac_ciazy": 9,
+      "etap_nazwa": "Wczesny termin porodu",
+      "podsumowanie": "Mimo że to wczesny termin, to dziecko może już przyjść na świat w każdej chwili.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 48 cm",
+        "waga": "ok. 3 kg",
+        "porownanie": "cukinia"
+      },
+      "rozwoj_dziecka": "Choć dziecko jest już gotowe do narodzin, ostatnie tygodnie ciąży nadal wspierają dojrzewanie mózgu, płuc i gromadzenie zapasów energii. Ciało przybiera ostatnie gramy, a tkanka tłuszczowa nadaje ciału pełniejszy kształt. Skóra staje się coraz gładsza, ale maź płodowa i meszek płodowy (lanugo) zanikają stopniowo, dlatego u części dzieci mogą być jeszcze widoczne po narodzinach. Mózg i płuca nadal dojrzewają, choć są już przygotowane do samodzielnego funkcjonowania.",
+      "cialo_kobiety": "Lekarz ocenia gotowość do porodu – może być wykonane KTG i USG szacujące masę dziecka. Brzuch jest maksymalnie duży, a oczekiwanie na narodziny bywa męczące. Może odejść czop śluzowy, pojawia się większe parcie w miednicy, a skurcze przepowiadające bywają bardziej wyraźne.",
+      "typowe_objawy": [
+        "Odejście czopa śluzowego",
+        "Intensywne skurcze przepowiadające",
+        "Parcie w miednicy",
+        "Problemy z pamięcią",
+        "Obrzęki",
+        "Niepokój przed porodem"
+      ],
+      "co_zrobic": [
+        "Bądź gotowa na wyjazd do szpitala.",
+        "Obserwuj objawy rozpoczynającego się porodu.",
+        "Odpoczywaj i zachowaj spokój."
+      ],
+      "badania_i_wizyty": [
+        "Jeśli się nie odbyła – wizyta kontrolna zgodnie z harmonogramem prowadzenia ciąży wraz z badaniami na HIV, HBsAg, morfologią, moczem (między 33. a 37. t.c.)",
+        "Badanie VDRL i HCV ponownie u kobiet ze zwiększonym ryzykiem zakażenia",
+        "Jeśli niewykonany – posiew GBS (do 37. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Regularne skurcze co 5 minut.",
+        "Odejście wód płodowych lub krwawienie.",
+        "Nasilone swędzenie, zwłaszcza dłoni i stóp – może wskazywać na cholestazę."
+      ],
+      "wskazowki": [
+        "Odejście czopa śluzowego zapowiada zbliżający się poród, ale nie zawsze oznacza jego natychmiastowy początek.",
+        "Naukowcy uważają, że w rozpoczęciu porodu biorą udział sygnały wysyłane zarówno przez organizm mamy, jak i przez dziecko."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 37
+    },
+    {
+      "tydzien": 38,
+      "trymestr": 3,
+      "miesiac_ciazy": 9,
+      "etap_nazwa": "Ciąża donoszona",
+      "podsumowanie": "Od tego tygodnia ciąża jest uznawana za donoszoną – dziecko jest gotowe do narodzin i może przyjść na świat w każdej chwili.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 49 cm",
+        "waga": "ok. 3,2 kg",
+        "porownanie": "arbuz"
+      },
+      "rozwoj_dziecka": "Dziecko jest w pełni dojrzałe i gotowe do narodzin. Skóra jest gładka i różowa, a u niektórych dzieci nadal może być widoczna niewielka ilość mazi płodowej lub lanugo. Ciało nadal gromadzi tkankę tłuszczową, która pomoże w utrzymaniu temperatury po narodzinach. Dziecko ma silny chwyt i dobrze rozwinięte odruchy. Dziecko rozpoznaje już znajome głosy, rytm dnia mamy i dźwięki, które słyszało przez ostatnie miesiące.",
+      "cialo_kobiety": "Organizm jest gotowy do porodu i warto uważnie obserwować swoje ciało. Wiele kobiet zwraca uwagę na każdą nową zmianę, zastanawiając się, czy to już początek porodu – oczekiwanie może być wyczerpujące emocjonalnie. Warto oszczędzać siły i zadbać o odpoczynek.",
+      "typowe_objawy": [
+        "Skurcze przepowiadające",
+        "Parcie w miednicy",
+        "Rozwieranie szyjki macicy",
+        "Zmęczenie",
+        "Niepokój"
+      ],
+      "co_zrobic": [
+        "Bądź gotowa na wyjazd do szpitala.",
+        "Obserwuj objawy rozpoczynającego się porodu.",
+        "Dużo odpoczywaj i nawadniaj się."
+      ],
+      "badania_i_wizyty": [
+        "Morfologia + badanie ogólne moczu",
+        "Wizyta kontrolna w celu sprawdzenia wyników i omówienia planu porodu",
+        "Dla planujących znieczulenie porodu – konsultacja anestezjologiczna w szpitalu (po 33. t.c.)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Regularne skurcze co 5 minut przez godzinę.",
+        "Odejście wód płodowych lub krwawienie."
+      ],
+      "wskazowki": [
+        "Większość porodów rozpoczyna się samoistnie między 38. a 41. tygodniem.",
+        "Skurcze porodowe są regularne, narastające i nie ustępują po zmianie pozycji."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 38
+    },
+    {
+      "tydzien": 39,
+      "trymestr": 3,
+      "miesiac_ciazy": 9,
+      "etap_nazwa": "Optymalny termin porodu",
+      "podsumowanie": "Ciąża jest w optymalnym okresie do porodu – dziecko może przyjść na świat lada moment.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 50 cm",
+        "waga": "ok. 3,4 kg",
+        "porownanie": "arbuz"
+      },
+      "rozwoj_dziecka": "Dziecko jest w pełni rozwinięte i gotowe do narodzin. Większość mazi płodowej i lanugo zanikła, a organizm funkcjonuje tak, jak będzie funkcjonował po porodzie. Dziecko nadal może nieznacznie przybierać na wadze, oczekując na rozpoczęcie porodu. Co ciekawe, noworodki rzadko wyglądają idealnie od pierwszych chwil po porodzie – przejściowo mogą mieć spuchnięte powieki, lekko zniekształcony kształt głowy lub pozostałości mazi płodowej. Te zmiany powinny ustąpić samoistnie w ciągu kilku dni.",
+      "cialo_kobiety": "Poród może rozpocząć się w każdej chwili. Skurcze przepowiadające są często bardziej intensywne niż wcześniej, ale czasami bywają trudne do odróżnienia od porodowych. Szyjka macicy może stopniowo się skracać i rozwierać. Wiele kobiet odczuwa już silny nacisk w miednicy i dużo częstsze wizyty w toalecie.",
+      "typowe_objawy": [
+        "Skurcze porodowe lub przepowiadające",
+        "Rozwieranie szyjki macicy",
+        "Parcie w miednicy",
+        "Niepokój i ekscytacja",
+        "Problemy z pamięcią"
+      ],
+      "co_zrobic": [
+        "Bądź gotowa na wyjazd do szpitala.",
+        "Pozostań w kontakcie z położną.",
+        "Obserwuj ruchy dziecka i objawy porodu."
+      ],
+      "badania_i_wizyty": [
+        "Wizyta kontrolna w celu sprawdzenia wyników i omówienia planu porodu"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Odejście wód płodowych.",
+        "Wyraźne zmniejszenie ruchów dziecka.",
+        "Krwawienie z dróg rodnych."
+      ],
+      "wskazowki": [
+        "Skurcze porodowe są regularne, narastające i nie ustępują po zmianie pozycji.",
+        "Termin porodu to data orientacyjna — poród w okolicy tego dnia jest całkowicie prawidłowy.",
+        "Kolor oczu widoczny po narodzinach nie zawsze jest ostateczny i może zmieniać się w pierwszych miesiącach życia."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 39
+    },
+    {
+      "tydzien": 40,
+      "trymestr": 3,
+      "miesiac_ciazy": 10,
+      "etap_nazwa": "Termin porodu",
+      "podsumowanie": "To przewidywany termin porodu – może jednak rozpocząć się zarówno przed, jak i po tej dacie.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 51 cm",
+        "waga": "ok. 3,6 kg",
+        "porownanie": "dynia"
+      },
+      "rozwoj_dziecka": "Dziecko jest w pełni dojrzałe i nadal nieznacznie przybiera na wadze. Skóra może być bardziej sucha, bo maź płodowa już zanikła. Paznokcie bywają dłuższe i czasem mogą zadrapać skórę. Dziecko czeka na rozpoczęcie porodu, a jego dobrostan należy regularnie monitorować.",
+      "cialo_kobiety": "To wyznaczona data porodu, choć tylko niewielki odsetek dzieci rodzi się dokładnie w tym dniu. Skurcze porodowe mogą rozpocząć się w każdej chwili. Zgodnie ze standardem poród powinien odbyć się przed końcem 42. tygodnia, dlatego jeśli nie rozpocznie się samoistnie, planowana jest hospitalizacja i indukcja. Dobrostan dziecka jest ściśle monitorowany.",
+      "typowe_objawy": [
+        "Skurcze przepowiadające",
+        "Zmęczenie i zniecierpliwienie",
+        "Parcie w miednicy",
+        "Rozwieranie szyjki macicy"
+      ],
+      "co_zrobic": [
+        "Zgłaszaj się na częstsze badania kontrolne.",
+        "Omów z lekarzem ewentualną indukcję porodu.",
+        "Uważnie obserwuj ruchy dziecka."
+      ],
+      "badania_i_wizyty": [
+        "Kontrola po wyznaczonym terminie, czyli USG i KTG (ocena dobrostanu dziecka i ilości wód płodowych)"
+      ],
+      "na_co_zwrocic_uwage": [
+        "Wyraźne zmniejszenie ruchów dziecka.",
+        "Odejście wód płodowych lub krwawienie."
+      ],
+      "wskazowki": [
+        "Tylko niewielki odsetek dzieci rodzi się dokładnie w planowanym dniu porodu.",
+        "Decyzja o indukcji porodu jest podejmowana indywidualnie z lekarzem.",
+        "KTG pozwala ocenić dobrostan dziecka w ostatnich tygodniach.",
+        "Noworodki rzadko wyglądają idealnie od pierwszych chwil po porodzie – przejściowo mogą mieć spuchnięte powieki, lekko zniekształcony kształt głowy lub pozostałości mazi płodowej. Te zmiany powinny ustąpić samoistnie w ciągu kilku dni."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 40
+    },
+    {
+      "tydzien": 41,
+      "trymestr": 3,
+      "miesiac_ciazy": 10,
+      "etap_nazwa": "Po terminie porodu",
+      "podsumowanie": "Termin minął, ale to wciąż prawidłowy czas na poród – lekarz będzie jednak rozważał indukcję.",
+      "rozmiar_dziecka": {
+        "dlugosc": "ok. 51 cm",
+        "waga": "ok. 3,7 kg",
+        "porownanie": "dynia"
+      },
+      "rozwoj_dziecka": "Dziecko jest w pełni dojrzałe i gotowe do narodzin. Skóra może być sucha lub lekko łuszcząca się, ponieważ ochronna warstwa mazi płodowej jest już niewielka. Dalsze pozostawanie w macicy wymaga ścisłej kontroli, dlatego poród powinien zakończyć się przed końcem tego tygodnia — samoistnie lub poprzez indukcję.",
+      "cialo_kobiety": "Przekroczenie terminu porodu wymaga kontroli. Lekarz monitoruje dobrostan dziecka i ilość wód płodowych. Może rozważyć indukcję porodu. Oczekiwanie bywa męczące, ale to wciąż prawidłowy czas na poród.",
+      "typowe_objawy": [
+        "Skurcze przepowiadające lub porodowe",
+        "Zmęczenie",
+        "Parcie w miednicy",
+        "Rozwieranie szyjki macicy"
+      ],
+      "co_zrobic": [
+        "Pozostań pod ścisłą opieką medyczną.",
+        "Przygotuj się na hospitalizację i ewentualną indukcję porodu.",
+        "Uważnie obserwuj ruchy dziecka."
+      ],
+      "badania_i_wizyty": [
+        "Kontrola po terminie, czyli USG i KTG (ocena dobrostanu dziecka i ilości wód płodowych)",
+        "Hospitalizacja w celu zakończenia ciąży przed końcem 42. t.c."
+      ],
+      "na_co_zwrocic_uwage": [
+        "Wyraźne zmniejszenie ruchów dziecka.",
+        "Odejście wód płodowych lub krwawienie."
+      ],
+      "wskazowki": [
+        "Po terminie kluczowe jest regularne monitorowanie dobrostanu dziecka.",
+        "W przypadku ciąży po terminie lekarz będzie częściej kontrolował dobrostan dziecka i wspólnie z Tobą omówi najlepszy moment zakończenia ciąży.",
+        "Indukcja porodu jest bezpiecznym i rutynowym postępowaniem po przekroczeniu terminu."
+      ],
+      "_zrodlowy_tydzien_w_oryginale": 41
+    }
+  ]
+}

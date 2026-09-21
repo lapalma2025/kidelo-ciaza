@@ -1,26 +1,380 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-cream: #f3f6f2;
+  --color-cream-soft: #e8efe9;
+  --color-forest: #154c3c;
+  --color-forest-dark: #0e352a;
+  --color-ink: #16332b;
+  --color-muted: #5b6b62;
+  --color-peach: #e8a589;
+  --color-peach-dark: #d3805e;
+  --color-sage: #d8e6da;
+  --color-sage-dark: #9fb8a4;
+  --color-line: #d5e0d6;
+  --color-card: rgba(255, 255, 255, 0.72);
+  --color-mist: #dff0e6;
+  --color-bloom: #f3dcc8;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: var(--color-cream);
+  --color-cream-soft: var(--color-cream-soft);
+  --color-forest: var(--color-forest);
+  --color-forest-dark: var(--color-forest-dark);
+  --color-ink: var(--color-ink);
+  --color-muted: var(--color-muted);
+  --color-peach: var(--color-peach);
+  --color-peach-dark: var(--color-peach-dark);
+  --color-sage: var(--color-sage);
+  --color-sage-dark: var(--color-sage-dark);
+  --color-line: var(--color-line);
+  --color-card: var(--color-card);
+  --font-display: var(--font-bricolage);
+  --font-sans: var(--font-bricolage);
+  --font-mono: var(--font-jetbrains);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+/* Miękkie pole świtu zamiast chropowatego papieru — głębia przez
+   nakładające się radialne światła, nie przez szum ani paski. */
+body {
+  overflow-x: clip;
+  max-width: 100%;
+  background:
+    radial-gradient(120% 80% at 10% -10%, color-mix(in srgb, var(--color-mist) 70%, white), transparent 55%),
+    radial-gradient(90% 70% at 95% 5%, color-mix(in srgb, var(--color-bloom) 55%, white), transparent 50%),
+    radial-gradient(70% 50% at 50% 100%, color-mix(in srgb, var(--color-sage) 45%, white), transparent 55%),
+    var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  min-height: 100%;
+}
+
+.ambient-field {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.ambient-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(64px);
+  opacity: 0.55;
+  will-change: transform;
+}
+
+.ambient-blob--a {
+  width: min(52vw, 520px);
+  height: min(52vw, 520px);
+  top: -8%;
+  left: -6%;
+  background: color-mix(in srgb, var(--color-mist) 80%, transparent);
+  animation: ambient-drift-a 28s ease-in-out infinite alternate;
+}
+
+.ambient-blob--b {
+  width: min(44vw, 440px);
+  height: min(44vw, 440px);
+  top: 18%;
+  right: -8%;
+  background: color-mix(in srgb, var(--color-bloom) 70%, transparent);
+  animation: ambient-drift-b 34s ease-in-out infinite alternate;
+}
+
+.ambient-blob--c {
+  width: min(48vw, 480px);
+  height: min(48vw, 480px);
+  bottom: 8%;
+  left: 22%;
+  background: color-mix(in srgb, var(--color-sage) 65%, transparent);
+  animation: ambient-drift-c 40s ease-in-out infinite alternate;
+}
+
+.ambient-blob--d {
+  width: min(36vw, 360px);
+  height: min(36vw, 360px);
+  bottom: -4%;
+  right: 18%;
+  background: color-mix(in srgb, var(--color-peach) 35%, transparent);
+  animation: ambient-drift-d 32s ease-in-out infinite alternate;
+}
+
+.ambient-sheen {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(255, 255, 255, 0.55), transparent 70%),
+    radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.2), transparent 40%);
+}
+
+@keyframes ambient-drift-a {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(6%, 10%, 0) scale(1.12);
+  }
+}
+@keyframes ambient-drift-b {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(-8%, 6%, 0) scale(1.08);
+  }
+}
+@keyframes ambient-drift-c {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(5%, -8%, 0) scale(1.15);
+  }
+}
+@keyframes ambient-drift-d {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-6%, -5%, 0);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.font-mono-label {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Miękka tafla szkła zamiast ukośnych pasków. */
+.bg-mist-panel {
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, white 55%, transparent),
+      color-mix(in srgb, var(--color-sage) 22%, transparent)
+    );
+  backdrop-filter: blur(8px);
+}
+
+/* Kompatybilność ze starymi klasami — mapujemy na nowe tło. */
+.bg-line-grid {
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, white 50%, transparent),
+      color-mix(in srgb, var(--color-sage) 18%, transparent)
+    );
+}
+
+.page-hero {
+  isolation: isolate;
+}
+
+.page-hero-glow {
+  position: absolute;
+  inset: -20% 10% auto;
+  height: 70%;
+  background: radial-gradient(
+    ellipse at center,
+    color-mix(in srgb, var(--color-mist) 55%, transparent),
+    transparent 70%
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+
+.glass-surface {
+  background: #fff;
+  border: 1px solid var(--color-line);
+}
+
+.tile {
+  background: #fff;
+  border: 1px solid var(--color-line);
+  border-radius: 1rem;
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease,
+    border-color 0.25s ease;
+}
+.tile:hover {
+  border-color: color-mix(in srgb, var(--color-forest) 35%, var(--color-line));
+  box-shadow: 0 20px 40px -28px color-mix(in srgb, var(--color-forest) 40%, transparent);
+  transform: translateY(-4px);
+}
+
+.week-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.85rem 0.5rem;
+  text-align: center;
+  background: #fff;
+  border: 1.5px solid color-mix(in srgb, var(--color-forest) 18%, var(--color-line));
+  border-radius: 1.15rem;
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--color-forest) 6%, transparent);
+  transition:
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.25s ease,
+    box-shadow 0.3s ease;
+  min-width: 0;
+}
+@media (min-width: 640px) {
+  .week-tile {
+    padding: 1.1rem 0.75rem;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .week-tile:hover {
+    border-color: var(--color-forest);
+    box-shadow: 0 18px 36px -24px color-mix(in srgb, var(--color-forest) 45%, transparent);
+    transform: translateY(-5px);
+  }
+  .card-lift:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 28px 48px -24px color-mix(in srgb, var(--color-forest) 32%, transparent);
+  }
+}
+.week-tile__num {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  color: var(--color-forest);
+  background: color-mix(in srgb, var(--color-sage) 55%, white);
+  border-radius: 999px;
+  padding: 0.15rem 0.45rem;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media (min-width: 640px) {
+  .week-tile__num {
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    padding: 0.2rem 0.55rem;
+  }
+}
+.week-tile__emoji {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin-top: 0.15rem;
+}
+@media (min-width: 640px) {
+  .week-tile__emoji {
+    font-size: 2rem;
+  }
+}
+.week-tile__label {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+@media (min-width: 640px) {
+  .week-tile__label {
+    font-size: 0.8125rem;
+  }
+}
+
+.card-lift {
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease,
+    border-color 0.25s ease;
+}
+
+/* Miejsce na sticky CTA na telefonie + safe area */
+.mobile-page-pad {
+  padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
+}
+@media (min-width: 768px) {
+  .mobile-page-pad {
+    padding-bottom: 5rem;
+  }
+}
+
+.cta-btn {
+  max-width: 100%;
+  text-align: left;
+  font-size: 0.9375rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+@media (min-width: 640px) {
+  .cta-btn {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+  }
+}
+
+@keyframes hero-video-breathe {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06);
+  }
+}
+.hero-video-breathe {
+  animation: hero-video-breathe 24s ease-in-out infinite alternate;
+}
+
+/* Delikatne kołysanie dla motywów nursery (CSS fallback / idle). */
+@keyframes nursery-sway {
+  from {
+    transform: rotate(-3deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-video-breathe,
+  .ambient-blob {
+    animation: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }
