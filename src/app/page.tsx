@@ -184,8 +184,8 @@ export default function HomePage() {
               Twój dzień w ciąży
             </h2>
             <p className="mt-3 max-w-lg text-base leading-relaxed text-[var(--color-muted)] sm:mt-4 sm:text-lg">
-              Asystent leków, oś zadań i najważniejsze pytania — dopasowane do aktualnego tygodnia ciąży. Widzisz, co
-              warto zrobić dziś, jakie badania nadchodzą i na co zwrócić uwagę w Twoim trymestrze.
+              Kalendarz ciąży, oś zadań, leki i suplementy, badania, świadczenia, wyprawka i torba do szpitala — a także
+              licznik kopnięć i wsparcie po porodzie. Wszystko dopasowane do Twojego tygodnia, w jednej aplikacji.
             </p>
           </div>
           <div className="reveal-item order-1 mx-auto w-full max-w-[240px] sm:max-w-xs lg:order-2 lg:max-w-sm lg:-rotate-2">
