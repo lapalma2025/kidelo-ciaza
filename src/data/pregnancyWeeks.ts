@@ -51,7 +51,7 @@ export function getTrimesterLabel(trymestr: number): string {
 
 /** Unikalna ikona na każdy tydzień (1–41) — dopasowana do porównania wielkości. */
 const WEEK_EMOJI: Record<number, string> = {
-  1: "✨",
+  1: "🤰",
   2: "🌱",
   3: "🌾",
   4: "🫘",
