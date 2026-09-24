@@ -418,7 +418,7 @@ export default function HomePage() {
         </AnimatedSection>
       </section>
 
-      <section id="pytania" className="px-4 py-12 sm:px-6 sm:py-16">
+      <section id="pytania" className="scroll-mt-24 px-4 py-12 sm:px-6 sm:py-16">
         <AnimatedSection className="mx-auto max-w-3xl">
           <p className="font-mono-label reveal-item text-xs text-[var(--color-peach-dark)]">06 · Pytania</p>
           <h2 className="reveal-item mt-2 font-display text-[1.75rem] text-[var(--color-forest)] sm:text-4xl">

@@ -1,119 +1,136 @@
-Przy pierwszym dziecku problemem nie jest to, czego brakuje, tylko to, czego jest za dużo. Sklepy z artykułami dziecięcymi mają listy wyprawkowe po sto kilkadziesiąt pozycji, bo zarabiają na każdej z nich. Rzeczy, które faktycznie są w użyciu w pierwszym miesiącu, mieszczą się w jednej szafie.
+Przy pierwszym dziecku problemem nie jest to, czego brakuje, tylko to, czego jest za dużo. Sklepy mają listy po sto kilkadziesiąt pozycji — a rzeczy naprawdę potrzebne na start mieszczą się w jednej szafie.
 
-Ten tekst jest ułożony według pięciu kategorii, w których i tak trzeba podjąć decyzje: sen, kąpiel i pielęgnacja, ubranka, karmienie, transport. Przy każdej podajemy liczby — ile sztuk, w jakim rozmiarze — oraz to, co warto odłożyć do momentu, aż dziecko się urodzi. Lista jest zgodna z [wyprawką w Kidelo](/wyprawka).
+Poniższa wyprawka jest **taka sama jak w aplikacji Kidelo Ciąża** i na stronie [Wyprawka](/wyprawka). Nie musisz kupować wszystkiego od razu — dopasuj listę do swoich potrzeb. Część rzeczy spokojnie poczeka do narodzin.
 
-## Sen
+🏥 przy pozycji oznacza, że rzecz przyda się też w szpitalu — pełną listę torby znajdziesz osobno: [Spakuj torbę do szpitala](/torba-do-szpitala).
 
-To jedyna kategoria, w której wybór ma udokumentowane konsekwencje zdrowotne, więc zaczynamy od niej.
+## Pokój i sen
 
-Amerykańska Akademia Pediatrii w aktualizacji zaleceń z 2022 roku formułuje to jednoznacznie: niemowlę powinno spać na plecach, na płaskiej i twardej powierzchni, bez poduszki, kołderki, ochraniaczy i pluszaków, we własnym łóżeczku ustawionym w pokoju rodziców przez pierwsze sześć miesięcy. Powierzchnie nachylone o więcej niż 10 stopni uznano za niebezpieczne do snu — leżaczki i kołyski bujane nadają się do czuwania pod nadzorem, nie do spania.
+- Łóżeczko (standardowe i/lub dostawne niemowlęce)
+- Materac do łóżeczka
+- Ochraniacz na materac
+- Niania elektroniczna (opcjonalnie)
+- Mata do przewijania / przewijak
+- Podkłady jednorazowe pod prześcieradło oraz na przewijak
+- Kołyska (opcjonalnie)
+- Ochraniacz na szczebelki, przepuszczający powietrze (opcjonalnie)
+- Monitor oddechu (opcjonalnie)
+- Karuzela do łóżeczka (opcjonalnie)
+- Szumiś (opcjonalnie)
 
-| Rzecz | Ile | Na co zwrócić uwagę |
-| --- | --- | --- |
-| Łóżeczko lub kołyska | 1 | Sztywny materac dopasowany do ramy, bez szczelin |
-| Materac | 1 | Twardy, płaski; ocena twardości ważniejsza niż materiał |
-| Prześcieradła z gumką | 2–3 | Zmiana w nocy przy ulaniu jest regułą |
-| Śpiworek do spania | 2 | Zastępuje kołdrę; dobierz gramaturę (TOG) do temperatury pokoju |
-| Podkłady nieprzemakalne | 2 | Ratują materac |
-| Termometr pokojowy | 1 | Zalecana temperatura snu to 18–20°C |
+## Transport i spacery
 
-Czego tu nie ma: ochraniaczy na szczebelki, poduszki, kołderki, pozycjonera i „gniazdka” do spania. Wszystkie figurują na liście rzeczy odradzanych w środowisku snu niemowlęcia.
+- Fotelik samochodowy tyłem do kierunku jazdy 🏥
+- Ochraniacz na fotel samochodowy
+- Lusterko na zagłówek
+- Wózek – gondola i spacerowy
+- Folia przeciwdeszczowa do wózka
+- Moskitiera do wózka
+- Torba do wózka
+- Śpiworek zimowy do wózka, zależnie od pory roku
+- Poduszka antywstrząsowa do wózka „motylek" (opcjonalnie)
+- Łóżeczko turystyczne (można kupić po narodzinach)
+- Silikon do konserwacji wózka (opcjonalnie)
 
 ## Kąpiel i pielęgnacja
 
-- Wanienka lub wkładka do wanny — jedna
-- Termometr do wody — kąpiel 36–37°C
-- Dwa ręczniki z kapturkiem
-- Emolient do kąpieli i balsam bezzapachowy
-- Chusteczki nawilżane bez alkoholu i zapachu oraz gaziki jałowe
-- Krem z tlenkiem cynku na pieluszkowe zapalenie skóry
-- Nożyczki z zaokrąglonymi końcami albo pilniczek
-- Termometr lekarski — najlepiej klasyczny, elektroniczny, do pomiaru pod pachą
-- Szczoteczka i grzebień — do ciemieniuchy
-- Aspirator do nosa i sól fizjologiczna w ampułkach
+- Wanienka
+- Wkładka niemowlęca do wanienki (opcjonalnie)
+- Stojak do wanienki (opcjonalnie)
+- Ręcznik z kapturkiem
+- Balsam do kąpieli
+- Oliwka lub krem do pielęgnacji niemowlaka
+- Termometr do wody (opcjonalnie)
+- Miękka gąbka do mycia
+- Miękka szczotka do włosów
+- Pampersy na pierwszy tydzień, rozmiar 0 i/lub 1 (ok. 8-12 dziennie przez pierwszy okres) 🏥
+- Płatki kosmetyczne lub mokre chusteczki 🏥
+- Krem przeciw odparzeniom 🏥
+- Obcinacz do paznokci
+- Pasta do zębów dla niemowlaka (można kupić po narodzinach)
 
-Kąpiel codzienna nie jest konieczna. W pierwszych tygodniach wystarczy 2–3 razy w tygodniu plus mycie okolicy pieluszkowej przy każdej zmianie.
+## Tekstylia i ubranka
 
-## Ubranka
-
-Najczęstszy błąd: kupowanie dużej ilości w rozmiarze 56. Dzieci rosną z niego w 3–6 tygodni, a część noworodków od razu do niego nie wchodzi. Kup mało w 56, więcej w 62 i 68.
-
-Wybieraj zapięcia z przodu i na zatrzaski przy nogawkach. Ubranie wierzchnie kupuj pod porę roku, w której dziecko będzie miało 1–3 miesiące, nie pod datę porodu.
-
-| Ubranie | Rozm. 56 | Rozm. 62 |
-| --- | --- | --- |
-| Body z długim rękawem | 5–6 | 6–7 |
-| Body z krótkim rękawem | 2–3 | 4–5 |
-| Pajacyk / śpioszki | 4–5 | 5–6 |
-| Bluza rozpinana | 2 | 2 |
-| Czapeczka cienka | 2 | 2 |
-| Skarpetki | 5 par | 5 par |
-| Rękawiczki-niedrapki | 1–2 pary | — |
+- Ubranka na pierwsze tygodnie życia 🏥
+- Pieluchy tetrowe, bambusowe, muślinowe 🏥
+- Rożek / otulacz muślinowy 🏥
+- Prześcieradła do łóżeczka
+- Prześcieradło do gondoli
+- Kocyki 🏥
+- Śpiworki do spania 🏥
+- Śliniaczki (można kupić po narodzinach)
 
 ## Karmienie
 
-Zakres zakupów zależy od tego, jak będzie wyglądało karmienie — a tego nie da się przewidzieć przed porodem.
+- Wygodny fotel z oparciami do karmienia (np. bujany)
+- Poduszka do karmienia na kolana (opcjonalnie)
+- Wkładki laktacyjne 🏥
+- Nakładki osłonki na brodawki (opcjonalnie) 🏥
+- Nakładki kolektory pokarmu (opcjonalnie)
+- Krem do brodawek 🏥
+- Biustonosz do karmienia (opcjonalnie)
+- Herbatki laktacyjne (opcjonalnie, można kupić po narodzinach)
+- Butelki antykolkowe (można kupić po narodzinach)
+- Szczotka do mycia butelek (można kupić po narodzinach)
+- Laktator (można kupić po narodzinach)
+- Woreczki do przechowywania mleka (można kupić po narodzinach)
+- Podgrzewacz do butelek (opcjonalnie, można kupić po narodzinach)
 
-**Kup przed porodem:**
+## Noszenie i rozwój
 
-- poduszka do karmienia (typu rogal),
-- lanolina na brodawki,
-- wkładki laktacyjne, 2–3 opakowania,
-- dwa biustonosze do karmienia,
-- dwie butelki 120 ml ze smoczkiem o najwolniejszym przepływie oraz szczoteczka do butelek — na wypadek dokarmiania.
+- Chusta do noszenia lub nosidełko
+- Duża mata edukacyjna, np. piankowa
+- Mała mata edukacyjna dla niemowlaka z wiszącymi zabawkami (opcjonalnie)
+- Leżaczek-bujaczek (opcjonalnie)
 
-**Kup po porodzie, jeśli okaże się potrzebne:**
+## Dla mamy
 
-- laktator (w wielu miastach można wypożyczyć),
-- sterylizator — czajnik i garnek działają tak samo,
-- mleko modyfikowane — dobór skonsultuj, nie kupuj „na zapas”,
-- butelki antykolkowe w większym rozmiarze.
+Te pozycje pokrywają się z torbą do szpitala — warto mieć je przygotowane wcześniej:
 
-Z perspektywy budżetu to najważniejsza zasada w całej wyprawce: rzeczy, które mogą się nie przydać, kupuje się po fakcie.
+- Koszule do porodu (rozpinane, 2 szt.) 🏥
+- Podkłady 90x100cm (min. 20 szt.) 🏥
+- Podkłady poporodowe (min. 30 szt.) 🏥
+- Butelka do podmywania 🏥
+- Majtki poporodowe siateczkowe (5-7 szt.) 🏥
 
-## Transport
+## Akcesoria dodatkowe
 
-Fotelik jest jedynym elementem wyprawki, bez którego nie wyjedziecie ze szpitala, i jedynym, którego nie kupuje się używanego od nieznajomego — historia kolizji nie jest widoczna z zewnątrz.
-
-Szukaj homologacji i-Size (UN R129). Przy noworodku to nosidełko grupy 0+ montowane tyłem do kierunku jazdy, najlepiej na bazie ISOFIX.
-
-Dwie rzeczy, o których łatwo zapomnieć:
-
-- Czas w foteliku — nie więcej niż 1,5–2 godziny bez przerwy; na dłuższej trasie planuj postoje.
-- Gruba kurtka pod pasami zwiększa luz; dziecko zapinamy w cienkiej warstwie, a kocyk kładziemy na pasy.
-
-Wózek: przy pierwszym dziecku najczęściej sprawdza się zestaw 2w1 (gondola + spacerówka). Sprawdź trzy rzeczy: czy złożony mieści się w bagażniku, ile waży rama i czy gondola ma atest do spania.
-
-## Czego nie kupować przed porodem
-
-Kojca, chodzika, kompletu pościeli z ochraniaczami, sterylizatora, podgrzewacza do butelek, ubranek powyżej rozmiaru 68, zabawek edukacyjnych i pełnego zestawu kosmetyków jednej marki. Niemowlę przez pierwsze osiem tygodni potrzebuje jedzenia, ciepła, czystej pieluchy i kontaktu z rodzicem.
+- Inhalator (można kupić po narodzinach)
+- Aspirator do nosa (można kupić po narodzinach)
+- Smoczek (opcjonalnie, można kupić po narodzinach)
+- Pojemnik na smoczek (opcjonalnie)
+- Zawieszka do smoczka (opcjonalnie)
+- Gryzak (można kupić po narodzinach)
+- Szczelnie zamykany kosz na pieluchy (opcjonalnie)
+- Krzesełko do karmienia z tacką (można kupić po narodzinach)
+- Talerzyk, miseczka, sztućce dziecięce (wszystko można kupić po narodzinach)
 
 ## Kiedy co kupić
 
-| Kiedy | Co kupić |
+| Kiedy | Co warto ogarnąć |
 | --- | --- |
-| 20.–24. tydzień | Łóżeczko, materac, wózek, fotelik — rzeczy z długim czasem dostawy |
+| 20.–24. tydzień | Łóżeczko, materac, wózek, fotelik — rzeczy z dłuższym czasem dostawy |
 | 28.–32. tydzień | Ubranka, pościel, kosmetyki, pielęgnacja |
 | 33.–35. tydzień | Pranie ubranek, pakowanie [torby do szpitala](/torba-do-szpitala) |
-| Po porodzie | Laktator, mleko, butelki w większym rozmiarze, nosidło, monitor oddechu |
+| Po porodzie | Laktator, butelki, akcesoria „na wszelki wypadek”, które mogą się nie przydać |
 
 ## Najczęstsze pytania
 
 **Ile kosztuje podstawowa wyprawka?**
 
-Bez wózka i fotelika mieści się zwykle w przedziale 1500–2500 zł, przy czym połowę tej kwoty stanowią łóżeczko z materacem. Z wózkiem i fotelikiem realny budżet to 4000–7000 zł.
+Bez wózka i fotelika zwykle 1500–2500 zł (dużą część stanowi łóżeczko z materacem). Z wózkiem i fotelikiem realny budżet to często 4000–7000 zł — zależnie od wyborów.
 
 **Czy warto kupować używane?**
 
-Tak, poza fotelikiem samochodowym, materacem i smoczkami. Ubranka noworodkowe są w praktyce noszone kilka tygodni i wracają na rynek w stanie idealnym.
+Tak, poza fotelikiem samochodowym, materacem i smoczkami. Ubranka noworodkowe są noszone krótko i często wracają na rynek w dobrym stanie.
 
 **Ile pieluch zużywa noworodek?**
 
-Około 8–12 dziennie w pierwszym miesiącu, czyli mniej więcej 300 sztuk. Kup jedną paczkę rozmiaru 1 i jedną rozmiaru 2 — nie więcej, bo dzieci rosną nierównomiernie.
+Około 8–12 dziennie w pierwszym okresie. Kup jedną paczkę rozmiaru 0/1 i dokup w miarę potrzeb — dzieci rosną nierównomiernie.
 
-> **W Kidelo wyprawka jest podzielona dokładnie na te pięć kategorii, z licznikiem sztuk i rozmiarów. Odhaczasz to, co już masz, dopisujesz własne pozycje i udostępniasz listę bliskim, którzy pytają, co kupić na prezent. Pobierz Kidelo Ciąża.**
+> **W Kidelo wyprawkę odhaczasz kategoria po kategorii, dopisujesz własne pozycje i udostępniasz listę bliskim. Pobierz Kidelo Ciąża — bezpłatnie, bez konta.**
 
-Zobacz też: [torba do szpitala](/torba-do-szpitala) · [kalkulator ciąży](/blog/kalkulator-ciazy) · [becikowe i 800+](/blog/becikowe-i-800-plus)
+Zobacz też: [wyprawka](/wyprawka) · [torba do szpitala](/torba-do-szpitala) · [kalkulator ciąży](/blog/kalkulator-ciazy) · [becikowe i 800+](/blog/becikowe-i-800-plus)
 
 ---
 

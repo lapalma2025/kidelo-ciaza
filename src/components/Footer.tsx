@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { NAV_ITEMS } from "./Header";
+import HashLink from "./HashLink";
 import appIcon from "@/assets/00-ikona.png";
 
 export default function Footer() {
@@ -38,9 +39,9 @@ export default function Footer() {
                 </li>
               ))}
               <li>
-                <Link href="/#pytania" className="hover:text-[var(--color-forest)]">
+                <HashLink href="/#pytania" className="hover:text-[var(--color-forest)]">
                   Najczęstsze pytania
-                </Link>
+                </HashLink>
               </li>
             </ul>
           </nav>
