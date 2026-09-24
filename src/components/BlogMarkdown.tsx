@@ -198,7 +198,7 @@ export default function BlogMarkdown({ source }: { source: string }) {
 
     // Inline "Pytanie? Odpowiedź" without markdown bold (fallback)
     if (inFaq) {
-      const inlineFaq = raw.match(/^(.+\?)\s+(.+)$/s);
+      const inlineFaq = raw.match(/^(.+\?)\s+([\s\S]+)$/);
       if (inlineFaq) {
         nodes.push(
           <div
