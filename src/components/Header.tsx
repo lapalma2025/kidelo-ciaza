@@ -11,6 +11,7 @@ export const NAV_ITEMS = [
   { href: "/finanse", label: "Finanse" },
   { href: "/wyprawka", label: "Wyprawka" },
   { href: "/torba-do-szpitala", label: "Torba" },
+  { href: "/blog", label: "Blog" },
   { href: "/o-nas", label: "O nas" },
 ];
 

@@ -18,7 +18,8 @@ type Motif =
   | "bodysuit"
   | "wallet"
   | "syringe"
-  | "family";
+  | "family"
+  | "book";
 
 interface NurseryScrollProps {
   motif: Motif;
@@ -138,6 +139,8 @@ function renderMotif(motif: Motif) {
       return <SyringeSvg />;
     case "family":
       return <FamilySvg />;
+    case "book":
+      return <BookSvg />;
   }
 }
 
@@ -510,6 +513,56 @@ function FamilySvg() {
         fill="var(--color-peach)"
         stroke="var(--color-forest)"
         strokeWidth="1.5"
+      />
+    </svg>
+  );
+}
+
+/** Otwarta książka — motyw bloga. */
+function BookSvg() {
+  return (
+    <svg className="nursery-rock h-full w-full" viewBox="0 0 200 160" fill="none">
+      <ellipse cx="100" cy="148" rx="54" ry="6" fill="var(--color-forest)" opacity="0.08" />
+      {/* lewa strona */}
+      <path
+        d="M28 44c0-6 4-10 10-10h54v92H38c-6 0-10-4-10-10V44Z"
+        fill="color-mix(in srgb, var(--color-cream) 85%, white)"
+        stroke="var(--color-forest)"
+        strokeWidth="2.5"
+        strokeLinejoin="round"
+      />
+      {/* prawa strona */}
+      <path
+        d="M108 34h54c6 0 10 4 10 10v72c0 6-4 10-10 10h-54V34Z"
+        fill="color-mix(in srgb, var(--color-sage) 45%, white)"
+        stroke="var(--color-forest)"
+        strokeWidth="2.5"
+        strokeLinejoin="round"
+      />
+      {/* grzbiet */}
+      <path d="M98 34v92" stroke="var(--color-forest)" strokeWidth="3" strokeLinecap="round" />
+      {/* linie tekstu */}
+      <path
+        d="M42 58h36M42 72h32M42 86h36M42 100h28"
+        stroke="var(--color-forest)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        opacity="0.35"
+      />
+      <path
+        d="M120 58h36M120 72h32M120 86h36M120 100h28"
+        stroke="var(--color-forest)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        opacity="0.3"
+      />
+      {/* zakładka */}
+      <path
+        d="M148 34v38l8-6 8 6V34"
+        fill="var(--color-peach)"
+        stroke="var(--color-forest)"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
       />
     </svg>
   );

@@ -12,7 +12,8 @@ type Motif =
   | "bodysuit"
   | "wallet"
   | "syringe"
-  | "family";
+  | "family"
+  | "book";
 
 interface PageHeroProps {
   crumbs: Crumb[];

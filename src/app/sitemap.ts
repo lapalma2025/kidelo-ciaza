@@ -3,9 +3,11 @@ import { SITE_URL } from "@/lib/site";
 import { ALL_WEEK_NUMBERS, weekPath, DATA_UPDATED_AT } from "@/data/pregnancyWeeks";
 import { ALL_BENEFITS, benefitPath } from "@/data/benefits";
 import { EXAMS_UPDATED_AT, TRIMESTER_EXAMS, examPath } from "@/data/exams";
+import { getAllPosts, blogPath } from "@/data/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString().slice(0, 10);
+  const posts = getAllPosts();
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
@@ -25,9 +27,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/finanse`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
     { url: `${SITE_URL}/wyprawka`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/torba-do-szpitala`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/o-nas`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/polityka-prywatnosci`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
   ];
+
+  const blogPages: MetadataRoute.Sitemap = posts.map((p) => ({
+    url: `${SITE_URL}${blogPath(p.slug)}`,
+    lastModified: p.updatedAt,
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }));
 
   const examPages: MetadataRoute.Sitemap = TRIMESTER_EXAMS.map((t) => ({
     url: `${SITE_URL}${examPath(t)}`,
@@ -50,5 +60,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: b.status === "retired" ? 0.35 : 0.8,
   }));
 
-  return [...staticPages, ...examPages, ...weekPages, ...benefitPages];
+  return [...staticPages, ...blogPages, ...examPages, ...weekPages, ...benefitPages];
 }

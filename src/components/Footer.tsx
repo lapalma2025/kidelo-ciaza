@@ -30,7 +30,7 @@ export default function Footer() {
           <nav aria-label="Nawigacja w stopce">
             <p className="text-sm font-semibold text-[var(--color-ink)]">Strona</p>
             <ul className="mt-2 space-y-1.5 text-sm text-[var(--color-muted)]">
-              {NAV_ITEMS.filter((i) => i.href !== "/" && i.href !== "/o-nas").map((item) => (
+              {NAV_ITEMS.filter((i) => i.href !== "/" && i.href !== "/o-nas" && i.href !== "/blog").map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className="hover:text-[var(--color-forest)]">
                     {item.label}
@@ -67,6 +67,11 @@ export default function Footer() {
           <div>
             <p className="text-sm font-semibold text-[var(--color-ink)]">Informacje</p>
             <ul className="mt-2 space-y-1.5 text-sm text-[var(--color-muted)]">
+              <li>
+                <Link href="/blog" className="hover:text-[var(--color-forest)]">
+                  Blog
+                </Link>
+              </li>
               <li>
                 <Link href="/o-nas" className="hover:text-[var(--color-forest)]">
                   O nas
